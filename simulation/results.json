@@ -1,0 +1,5330 @@
+{
+ "fit": {
+  "A": 252.46945801921865,
+  "alpha": 0.23667471904797904,
+  "B": 37.39180225791581,
+  "beta": 0.018140465337868235,
+  "ka": 0.7735851857355791,
+  "fit_resid": [
+   -0.0036110312182821695,
+   -0.027999999999999935,
+   0.02162205761529023,
+   -0.019069861860954017
+  ]
+ },
+ "main": {
+  "model": "two-compartment (fitted), t1/2 38.2 h",
+  "params": {
+   "A": 252.46945801921865,
+   "alpha": 0.23667471904797904,
+   "B": 37.39180225791581,
+   "beta": 0.018140465337868235,
+   "ka": 0.7735851857355791
+  },
+  "ref_steady_state_trough_over_peak": 0.348,
+  "results": {
+   "A_home_CV10_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     99.2,
+     100.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     93.0,
+     107.3
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     87.6,
+     113.2
+    ],
+    "% of days trough <90% of ref": 0.29,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.07,
+    "patient's lowest trough over 90 days, median % of ref": 91.3,
+    "patient's lowest trough, 2.5th pct of patients": 87.5,
+    "patient's highest trough, 97.5th pct of patients": 113.6
+   },
+   "B_pooled_CV10_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     98.0,
+     102.1
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     90.9,
+     109.5
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     86.7,
+     114.2
+    ],
+    "% of days trough <90% of ref": 1.52,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.15,
+    "patient's lowest trough over 90 days, median % of ref": 89.4,
+    "patient's lowest trough, 2.5th pct of patients": 84.5,
+    "patient's highest trough, 97.5th pct of patients": 116.9
+   },
+   "C_largestfirst_CV10_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     99.9,
+     99.1,
+     100.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     93.1,
+     106.5
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     87.4,
+     112.6
+    ],
+    "% of days trough <90% of ref": 0.11,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.06,
+    "patient's lowest trough over 90 days, median % of ref": 91.8,
+    "patient's lowest trough, 2.5th pct of patients": 89.0,
+    "patient's highest trough, 97.5th pct of patients": 112.1
+   },
+   "A_home_CV10_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.0,
+     96.2,
+     97.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     90.2,
+     104.1
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     85.0,
+     109.8
+    ],
+    "% of days trough <90% of ref": 2.24,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.22,
+    "patient's lowest trough over 90 days, median % of ref": 88.6,
+    "patient's lowest trough, 2.5th pct of patients": 84.8,
+    "patient's highest trough, 97.5th pct of patients": 110.2
+   },
+   "B_pooled_CV10_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.0,
+     95.0,
+     99.0
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     88.2,
+     106.2
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     84.1,
+     110.8
+    ],
+    "% of days trough <90% of ref": 6.18,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.41,
+    "patient's lowest trough over 90 days, median % of ref": 86.7,
+    "patient's lowest trough, 2.5th pct of patients": 82.1,
+    "patient's highest trough, 97.5th pct of patients": 113.4
+   },
+   "C_largestfirst_CV10_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     96.9,
+     96.1,
+     97.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     90.3,
+     103.3
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     84.7,
+     109.3
+    ],
+    "% of days trough <90% of ref": 1.97,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.22,
+    "patient's lowest trough over 90 days, median % of ref": 89.0,
+    "patient's lowest trough, 2.5th pct of patients": 86.3,
+    "patient's highest trough, 97.5th pct of patients": 108.7
+   },
+   "A_home_CV10_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     93.2,
+     94.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     87.4,
+     100.8
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     82.4,
+     106.4
+    ],
+    "% of days trough <90% of ref": 11.62,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.84,
+    "patient's lowest trough over 90 days, median % of ref": 85.8,
+    "patient's lowest trough, 2.5th pct of patients": 82.2,
+    "patient's highest trough, 97.5th pct of patients": 106.8
+   },
+   "B_pooled_CV10_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     92.0,
+     96.0
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     85.4,
+     102.9
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     81.6,
+     107.3
+    ],
+    "% of days trough <90% of ref": 18.76,
+    "% of days trough <80% of ref": 0.05,
+    "% of days peak outside 80-125% of ref": 1.31,
+    "patient's lowest trough over 90 days, median % of ref": 83.9,
+    "patient's lowest trough, 2.5th pct of patients": 79.5,
+    "patient's highest trough, 97.5th pct of patients": 109.9
+   },
+   "C_largestfirst_CV10_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     93.9,
+     93.2,
+     94.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     87.5,
+     100.1
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     82.1,
+     105.9
+    ],
+    "% of days trough <90% of ref": 11.94,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.91,
+    "patient's lowest trough over 90 days, median % of ref": 86.3,
+    "patient's lowest trough, 2.5th pct of patients": 83.7,
+    "patient's highest trough, 97.5th pct of patients": 105.3
+   },
+   "A_home_CV10_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     89.2,
+     90.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     83.7,
+     96.5
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     78.9,
+     101.9
+    ],
+    "% of days trough <90% of ref": 50.62,
+    "% of days trough <80% of ref": 0.11,
+    "% of days peak outside 80-125% of ref": 3.97,
+    "patient's lowest trough over 90 days, median % of ref": 82.2,
+    "patient's lowest trough, 2.5th pct of patients": 78.8,
+    "patient's highest trough, 97.5th pct of patients": 102.2
+   },
+   "B_pooled_CV10_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     88.1,
+     91.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     81.8,
+     98.6
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     78.1,
+     102.7
+    ],
+    "% of days trough <90% of ref": 50.7,
+    "% of days trough <80% of ref": 0.81,
+    "% of days peak outside 80-125% of ref": 5.23,
+    "patient's lowest trough over 90 days, median % of ref": 80.4,
+    "patient's lowest trough, 2.5th pct of patients": 76.0,
+    "patient's highest trough, 97.5th pct of patients": 105.2
+   },
+   "C_largestfirst_CV10_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     89.9,
+     89.2,
+     90.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     83.8,
+     95.8
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     78.6,
+     101.4
+    ],
+    "% of days trough <90% of ref": 47.81,
+    "% of days trough <80% of ref": 0.02,
+    "% of days peak outside 80-125% of ref": 4.45,
+    "patient's lowest trough over 90 days, median % of ref": 82.6,
+    "patient's lowest trough, 2.5th pct of patients": 80.1,
+    "patient's highest trough, 97.5th pct of patients": 100.8
+   },
+   "A_home_CV15_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     99.1,
+     100.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     89.9,
+     110.5
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     82.1,
+     119.8
+    ],
+    "% of days trough <90% of ref": 2.57,
+    "% of days trough <80% of ref": 0.01,
+    "% of days peak outside 80-125% of ref": 2.08,
+    "patient's lowest trough over 90 days, median % of ref": 87.5,
+    "patient's lowest trough, 2.5th pct of patients": 82.0,
+    "patient's highest trough, 97.5th pct of patients": 120.0
+   },
+   "B_pooled_CV15_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     97.0,
+     103.2
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     86.6,
+     114.3
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     80.7,
+     121.3
+    ],
+    "% of days trough <90% of ref": 7.51,
+    "% of days trough <80% of ref": 0.12,
+    "% of days peak outside 80-125% of ref": 3.22,
+    "patient's lowest trough over 90 days, median % of ref": 84.5,
+    "patient's lowest trough, 2.5th pct of patients": 77.9,
+    "patient's highest trough, 97.5th pct of patients": 126.0
+   },
+   "C_largestfirst_CV15_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     99.9,
+     99.1,
+     100.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     90.4,
+     109.3
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     81.7,
+     119.0
+    ],
+    "% of days trough <90% of ref": 2.0,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 2.11,
+    "patient's lowest trough over 90 days, median % of ref": 88.7,
+    "patient's lowest trough, 2.5th pct of patients": 85.2,
+    "patient's highest trough, 97.5th pct of patients": 117.6
+   },
+   "A_home_CV15_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.0,
+     96.2,
+     97.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     87.3,
+     107.2
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     79.6,
+     116.1
+    ],
+    "% of days trough <90% of ref": 7.75,
+    "% of days trough <80% of ref": 0.04,
+    "% of days peak outside 80-125% of ref": 3.04,
+    "patient's lowest trough over 90 days, median % of ref": 84.9,
+    "patient's lowest trough, 2.5th pct of patients": 79.6,
+    "patient's highest trough, 97.5th pct of patients": 116.5
+   },
+   "B_pooled_CV15_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.0,
+     94.0,
+     100.0
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     83.9,
+     110.8
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     78.2,
+     117.7
+    ],
+    "% of days trough <90% of ref": 15.43,
+    "% of days trough <80% of ref": 0.45,
+    "% of days peak outside 80-125% of ref": 4.41,
+    "patient's lowest trough over 90 days, median % of ref": 81.9,
+    "patient's lowest trough, 2.5th pct of patients": 75.4,
+    "patient's highest trough, 97.5th pct of patients": 122.2
+   },
+   "C_largestfirst_CV15_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     96.9,
+     96.1,
+     97.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     87.6,
+     106.0
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     79.2,
+     115.3
+    ],
+    "% of days trough <90% of ref": 8.45,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 3.37,
+    "patient's lowest trough over 90 days, median % of ref": 86.0,
+    "patient's lowest trough, 2.5th pct of patients": 82.6,
+    "patient's highest trough, 97.5th pct of patients": 114.1
+   },
+   "A_home_CV15_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     93.2,
+     94.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     84.6,
+     103.9
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     77.2,
+     112.5
+    ],
+    "% of days trough <90% of ref": 20.0,
+    "% of days trough <80% of ref": 0.21,
+    "% of days peak outside 80-125% of ref": 5.49,
+    "patient's lowest trough over 90 days, median % of ref": 82.3,
+    "patient's lowest trough, 2.5th pct of patients": 77.2,
+    "patient's highest trough, 97.5th pct of patients": 112.8
+   },
+   "B_pooled_CV15_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     91.1,
+     96.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     81.4,
+     107.4
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     75.8,
+     114.0
+    ],
+    "% of days trough <90% of ref": 27.78,
+    "% of days trough <80% of ref": 1.43,
+    "% of days peak outside 80-125% of ref": 7.22,
+    "patient's lowest trough over 90 days, median % of ref": 79.3,
+    "patient's lowest trough, 2.5th pct of patients": 72.8,
+    "patient's highest trough, 97.5th pct of patients": 118.2
+   },
+   "C_largestfirst_CV15_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     93.9,
+     93.1,
+     94.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     84.9,
+     102.7
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     76.8,
+     111.8
+    ],
+    "% of days trough <90% of ref": 19.71,
+    "% of days trough <80% of ref": 0.03,
+    "% of days peak outside 80-125% of ref": 6.13,
+    "patient's lowest trough over 90 days, median % of ref": 83.4,
+    "patient's lowest trough, 2.5th pct of patients": 80.0,
+    "patient's highest trough, 97.5th pct of patients": 110.7
+   },
+   "A_home_CV15_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     89.2,
+     90.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     81.0,
+     99.4
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     73.9,
+     107.7
+    ],
+    "% of days trough <90% of ref": 50.62,
+    "% of days trough <80% of ref": 1.54,
+    "% of days peak outside 80-125% of ref": 12.08,
+    "patient's lowest trough over 90 days, median % of ref": 78.8,
+    "patient's lowest trough, 2.5th pct of patients": 73.8,
+    "patient's highest trough, 97.5th pct of patients": 108.2
+   },
+   "B_pooled_CV15_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     87.2,
+     92.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     77.9,
+     102.8
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     72.6,
+     109.2
+    ],
+    "% of days trough <90% of ref": 50.93,
+    "% of days trough <80% of ref": 5.39,
+    "% of days peak outside 80-125% of ref": 14.26,
+    "patient's lowest trough over 90 days, median % of ref": 76.0,
+    "patient's lowest trough, 2.5th pct of patients": 70.0,
+    "patient's highest trough, 97.5th pct of patients": 113.1
+   },
+   "C_largestfirst_CV15_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     89.9,
+     89.1,
+     90.6
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     81.3,
+     98.3
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     73.5,
+     107.0
+    ],
+    "% of days trough <90% of ref": 47.56,
+    "% of days trough <80% of ref": 0.93,
+    "% of days peak outside 80-125% of ref": 12.85,
+    "patient's lowest trough over 90 days, median % of ref": 79.8,
+    "patient's lowest trough, 2.5th pct of patients": 76.7,
+    "patient's highest trough, 97.5th pct of patients": 106.0
+   },
+   "A_home_CV20_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     99.1,
+     100.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     86.8,
+     113.8
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     76.7,
+     126.5
+    ],
+    "% of days trough <90% of ref": 6.63,
+    "% of days trough <80% of ref": 0.15,
+    "% of days peak outside 80-125% of ref": 8.1,
+    "patient's lowest trough over 90 days, median % of ref": 83.7,
+    "patient's lowest trough, 2.5th pct of patients": 76.9,
+    "patient's highest trough, 97.5th pct of patients": 126.8
+   },
+   "B_pooled_CV20_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     95.9,
+     104.1
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     82.4,
+     119.2
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     74.7,
+     128.7
+    ],
+    "% of days trough <90% of ref": 14.35,
+    "% of days trough <80% of ref": 1.21,
+    "% of days peak outside 80-125% of ref": 10.91,
+    "patient's lowest trough over 90 days, median % of ref": 79.6,
+    "patient's lowest trough, 2.5th pct of patients": 71.0,
+    "patient's highest trough, 97.5th pct of patients": 134.8
+   },
+   "C_largestfirst_CV20_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     99.8,
+     99.0,
+     100.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     87.6,
+     112.1
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     76.2,
+     125.4
+    ],
+    "% of days trough <90% of ref": 6.94,
+    "% of days trough <80% of ref": 0.01,
+    "% of days peak outside 80-125% of ref": 8.21,
+    "patient's lowest trough over 90 days, median % of ref": 85.6,
+    "patient's lowest trough, 2.5th pct of patients": 81.3,
+    "patient's highest trough, 97.5th pct of patients": 123.6
+   },
+   "A_home_CV20_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.0,
+     96.1,
+     97.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     84.3,
+     110.4
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     74.4,
+     122.6
+    ],
+    "% of days trough <90% of ref": 13.79,
+    "% of days trough <80% of ref": 0.47,
+    "% of days peak outside 80-125% of ref": 9.43,
+    "patient's lowest trough over 90 days, median % of ref": 81.3,
+    "patient's lowest trough, 2.5th pct of patients": 74.8,
+    "patient's highest trough, 97.5th pct of patients": 123.2
+   },
+   "B_pooled_CV20_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.0,
+     93.0,
+     100.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     79.9,
+     115.5
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     72.5,
+     124.8
+    ],
+    "% of days trough <90% of ref": 22.56,
+    "% of days trough <80% of ref": 2.57,
+    "% of days peak outside 80-125% of ref": 12.16,
+    "patient's lowest trough over 90 days, median % of ref": 77.2,
+    "patient's lowest trough, 2.5th pct of patients": 68.7,
+    "patient's highest trough, 97.5th pct of patients": 130.6
+   },
+   "C_largestfirst_CV20_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     96.9,
+     96.0,
+     97.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     85.0,
+     108.8
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     73.9,
+     121.6
+    ],
+    "% of days trough <90% of ref": 14.93,
+    "% of days trough <80% of ref": 0.08,
+    "% of days peak outside 80-125% of ref": 9.97,
+    "patient's lowest trough over 90 days, median % of ref": 83.0,
+    "patient's lowest trough, 2.5th pct of patients": 79.0,
+    "patient's highest trough, 97.5th pct of patients": 120.0
+   },
+   "A_home_CV20_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     93.2,
+     94.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     81.7,
+     107.0
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     72.1,
+     118.9
+    ],
+    "% of days trough <90% of ref": 26.06,
+    "% of days trough <80% of ref": 1.32,
+    "% of days peak outside 80-125% of ref": 12.5,
+    "patient's lowest trough over 90 days, median % of ref": 78.8,
+    "patient's lowest trough, 2.5th pct of patients": 72.4,
+    "patient's highest trough, 97.5th pct of patients": 119.2
+   },
+   "B_pooled_CV20_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     90.2,
+     97.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     77.5,
+     112.0
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     70.3,
+     121.0
+    ],
+    "% of days trough <90% of ref": 33.38,
+    "% of days trough <80% of ref": 5.1,
+    "% of days peak outside 80-125% of ref": 15.23,
+    "patient's lowest trough over 90 days, median % of ref": 74.8,
+    "patient's lowest trough, 2.5th pct of patients": 66.8,
+    "patient's highest trough, 97.5th pct of patients": 126.4
+   },
+   "C_largestfirst_CV20_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     93.9,
+     93.1,
+     94.6
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     82.3,
+     105.4
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     71.6,
+     117.9
+    ],
+    "% of days trough <90% of ref": 24.08,
+    "% of days trough <80% of ref": 0.59,
+    "% of days peak outside 80-125% of ref": 13.2,
+    "patient's lowest trough over 90 days, median % of ref": 80.4,
+    "patient's lowest trough, 2.5th pct of patients": 76.5,
+    "patient's highest trough, 97.5th pct of patients": 116.2
+   },
+   "A_home_CV20_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     89.2,
+     90.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     78.2,
+     102.4
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     69.0,
+     113.8
+    ],
+    "% of days trough <90% of ref": 50.72,
+    "% of days trough <80% of ref": 4.74,
+    "% of days peak outside 80-125% of ref": 19.74,
+    "patient's lowest trough over 90 days, median % of ref": 75.4,
+    "patient's lowest trough, 2.5th pct of patients": 69.4,
+    "patient's highest trough, 97.5th pct of patients": 114.1
+   },
+   "B_pooled_CV20_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     86.4,
+     93.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     74.2,
+     107.2
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     67.3,
+     115.8
+    ],
+    "% of days trough <90% of ref": 51.11,
+    "% of days trough <80% of ref": 11.56,
+    "% of days peak outside 80-125% of ref": 22.04,
+    "patient's lowest trough over 90 days, median % of ref": 71.6,
+    "patient's lowest trough, 2.5th pct of patients": 63.9,
+    "patient's highest trough, 97.5th pct of patients": 121.3
+   },
+   "C_largestfirst_CV20_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     89.9,
+     89.1,
+     90.6
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     78.8,
+     100.9
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     68.6,
+     112.9
+    ],
+    "% of days trough <90% of ref": 47.49,
+    "% of days trough <80% of ref": 4.55,
+    "% of days peak outside 80-125% of ref": 19.74,
+    "patient's lowest trough over 90 days, median % of ref": 77.0,
+    "patient's lowest trough, 2.5th pct of patients": 73.3,
+    "patient's highest trough, 97.5th pct of patients": 111.5
+   },
+   "A_home_CV30_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     99.0,
+     101.0
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     80.8,
+     120.6
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     66.5,
+     140.4
+    ],
+    "% of days trough <90% of ref": 15.38,
+    "% of days trough <80% of ref": 2.07,
+    "% of days peak outside 80-125% of ref": 24.7,
+    "patient's lowest trough over 90 days, median % of ref": 76.4,
+    "patient's lowest trough, 2.5th pct of patients": 67.0,
+    "patient's highest trough, 97.5th pct of patients": 140.4
+   },
+   "B_pooled_CV30_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     94.0,
+     106.2
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     74.3,
+     129.2
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     63.7,
+     144.0
+    ],
+    "% of days trough <90% of ref": 24.54,
+    "% of days trough <80% of ref": 7.01,
+    "% of days peak outside 80-125% of ref": 28.8,
+    "patient's lowest trough over 90 days, median % of ref": 70.5,
+    "patient's lowest trough, 2.5th pct of patients": 58.9,
+    "patient's highest trough, 97.5th pct of patients": 153.0
+   },
+   "C_largestfirst_CV30_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     99.8,
+     98.9,
+     100.6
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     82.0,
+     118.1
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     65.7,
+     139.0
+    ],
+    "% of days trough <90% of ref": 16.79,
+    "% of days trough <80% of ref": 1.06,
+    "% of days peak outside 80-125% of ref": 24.13,
+    "patient's lowest trough over 90 days, median % of ref": 79.4,
+    "patient's lowest trough, 2.5th pct of patients": 73.8,
+    "patient's highest trough, 97.5th pct of patients": 135.9
+   },
+   "A_home_CV30_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.0,
+     96.1,
+     97.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     78.4,
+     117.0
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     64.6,
+     136.3
+    ],
+    "% of days trough <90% of ref": 23.3,
+    "% of days trough <80% of ref": 3.69,
+    "% of days peak outside 80-125% of ref": 25.64,
+    "patient's lowest trough over 90 days, median % of ref": 74.1,
+    "patient's lowest trough, 2.5th pct of patients": 65.1,
+    "patient's highest trough, 97.5th pct of patients": 136.5
+   },
+   "B_pooled_CV30_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     96.9,
+     91.2,
+     102.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     71.9,
+     125.1
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     61.7,
+     139.6
+    ],
+    "% of days trough <90% of ref": 31.68,
+    "% of days trough <80% of ref": 10.26,
+    "% of days peak outside 80-125% of ref": 29.6,
+    "patient's lowest trough over 90 days, median % of ref": 68.3,
+    "patient's lowest trough, 2.5th pct of patients": 57.0,
+    "patient's highest trough, 97.5th pct of patients": 147.8
+   },
+   "C_largestfirst_CV30_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     96.8,
+     95.9,
+     97.6
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     79.6,
+     114.6
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     63.8,
+     134.9
+    ],
+    "% of days trough <90% of ref": 22.3,
+    "% of days trough <80% of ref": 2.9,
+    "% of days peak outside 80-125% of ref": 24.83,
+    "patient's lowest trough over 90 days, median % of ref": 77.0,
+    "patient's lowest trough, 2.5th pct of patients": 71.7,
+    "patient's highest trough, 97.5th pct of patients": 132.3
+   },
+   "A_home_CV30_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     93.1,
+     94.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     75.9,
+     113.3
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     62.6,
+     131.9
+    ],
+    "% of days trough <90% of ref": 33.65,
+    "% of days trough <80% of ref": 6.4,
+    "% of days peak outside 80-125% of ref": 27.72,
+    "patient's lowest trough over 90 days, median % of ref": 71.9,
+    "patient's lowest trough, 2.5th pct of patients": 63.3,
+    "patient's highest trough, 97.5th pct of patients": 131.8
+   },
+   "B_pooled_CV30_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     88.2,
+     99.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     69.8,
+     121.4
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     59.9,
+     135.2
+    ],
+    "% of days trough <90% of ref": 39.57,
+    "% of days trough <80% of ref": 14.28,
+    "% of days peak outside 80-125% of ref": 31.28,
+    "patient's lowest trough over 90 days, median % of ref": 66.2,
+    "patient's lowest trough, 2.5th pct of patients": 55.5,
+    "patient's highest trough, 97.5th pct of patients": 143.9
+   },
+   "C_largestfirst_CV30_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     93.8,
+     93.0,
+     94.6
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     77.1,
+     111.0
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     61.8,
+     130.7
+    ],
+    "% of days trough <90% of ref": 29.22,
+    "% of days trough <80% of ref": 6.55,
+    "% of days peak outside 80-125% of ref": 26.7,
+    "patient's lowest trough over 90 days, median % of ref": 74.6,
+    "patient's lowest trough, 2.5th pct of patients": 69.5,
+    "patient's highest trough, 97.5th pct of patients": 128.1
+   },
+   "A_home_CV30_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     89.1,
+     90.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     72.7,
+     108.6
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     60.0,
+     126.5
+    ],
+    "% of days trough <90% of ref": 51.09,
+    "% of days trough <80% of ref": 12.78,
+    "% of days peak outside 80-125% of ref": 32.56,
+    "patient's lowest trough over 90 days, median % of ref": 68.8,
+    "patient's lowest trough, 2.5th pct of patients": 60.5,
+    "patient's highest trough, 97.5th pct of patients": 126.7
+   },
+   "B_pooled_CV30_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     84.6,
+     95.6
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     66.8,
+     116.2
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     57.3,
+     129.6
+    ],
+    "% of days trough <90% of ref": 51.71,
+    "% of days trough <80% of ref": 22.07,
+    "% of days peak outside 80-125% of ref": 35.47,
+    "patient's lowest trough over 90 days, median % of ref": 63.4,
+    "patient's lowest trough, 2.5th pct of patients": 53.1,
+    "patient's highest trough, 97.5th pct of patients": 138.1
+   },
+   "C_largestfirst_CV30_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     89.8,
+     89.0,
+     90.6
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     73.8,
+     106.3
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     59.2,
+     125.2
+    ],
+    "% of days trough <90% of ref": 47.87,
+    "% of days trough <80% of ref": 14.37,
+    "% of days peak outside 80-125% of ref": 30.95,
+    "patient's lowest trough over 90 days, median % of ref": 71.5,
+    "patient's lowest trough, 2.5th pct of patients": 66.6,
+    "patient's highest trough, 97.5th pct of patients": 122.5
+   },
+   "BENCH_missed_1_per_28": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     95.7,
+     95.5,
+     96.4
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     63.9,
+     100.0
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     34.8,
+     100.0
+    ],
+    "% of days trough <90% of ref": 12.67,
+    "% of days trough <80% of ref": 8.47,
+    "% of days peak outside 80-125% of ref": 4.28,
+    "patient's lowest trough over 90 days, median % of ref": 63.8,
+    "patient's lowest trough, 2.5th pct of patients": 54.5,
+    "patient's highest trough, 97.5th pct of patients": 100.0
+   },
+   "BENCH_25mg_alt_day": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     100.0,
+     100.0
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     77.6,
+     122.4
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     42.6,
+     159.7
+    ],
+    "% of days trough <90% of ref": 49.44,
+    "% of days trough <80% of ref": 49.44,
+    "% of days peak outside 80-125% of ref": 100.0,
+    "patient's lowest trough over 90 days, median % of ref": 77.6,
+    "patient's lowest trough, 2.5th pct of patients": 77.6,
+    "patient's highest trough, 97.5th pct of patients": 122.4
+   }
+  }
+ },
+ "sens_thalf_30": {
+  "model": "two-compartment, terminal t1/2 30.0 h",
+  "params": {
+   "A": 252.46945801921865,
+   "alpha": 0.23667471904797904,
+   "B": 37.39180225791581,
+   "beta": 0.023104906018664842,
+   "ka": 0.7735851857355791
+  },
+  "ref_steady_state_trough_over_peak": 0.283,
+  "results": {
+   "A_home_CV10_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     99.1,
+     100.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     91.7,
+     108.7
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     86.4,
+     114.6
+    ],
+    "% of days trough <90% of ref": 0.91,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.2,
+    "patient's lowest trough over 90 days, median % of ref": 89.8,
+    "patient's lowest trough, 2.5th pct of patients": 85.4,
+    "patient's highest trough, 97.5th pct of patients": 116.1
+   },
+   "B_pooled_CV10_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     97.9,
+     102.0
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     89.8,
+     110.8
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     85.6,
+     115.4
+    ],
+    "% of days trough <90% of ref": 2.76,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.35,
+    "patient's lowest trough over 90 days, median % of ref": 87.9,
+    "patient's lowest trough, 2.5th pct of patients": 82.7,
+    "patient's highest trough, 97.5th pct of patients": 119.3
+   },
+   "C_largestfirst_CV10_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     99.9,
+     99.1,
+     100.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     91.6,
+     107.7
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     86.0,
+     114.0
+    ],
+    "% of days trough <90% of ref": 0.82,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.22,
+    "patient's lowest trough over 90 days, median % of ref": 89.9,
+    "patient's lowest trough, 2.5th pct of patients": 86.6,
+    "patient's highest trough, 97.5th pct of patients": 114.4
+   },
+   "A_home_CV10_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.0,
+     96.2,
+     97.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     88.9,
+     105.4
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     83.8,
+     111.1
+    ],
+    "% of days trough <90% of ref": 4.4,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.51,
+    "patient's lowest trough over 90 days, median % of ref": 87.1,
+    "patient's lowest trough, 2.5th pct of patients": 82.7,
+    "patient's highest trough, 97.5th pct of patients": 112.8
+   },
+   "B_pooled_CV10_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.0,
+     94.9,
+     99.1
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     87.1,
+     107.4
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     83.0,
+     111.9
+    ],
+    "% of days trough <90% of ref": 8.65,
+    "% of days trough <80% of ref": 0.03,
+    "% of days peak outside 80-125% of ref": 0.79,
+    "patient's lowest trough over 90 days, median % of ref": 85.3,
+    "patient's lowest trough, 2.5th pct of patients": 80.1,
+    "patient's highest trough, 97.5th pct of patients": 115.5
+   },
+   "C_largestfirst_CV10_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     96.9,
+     96.1,
+     97.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     88.8,
+     104.5
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     83.4,
+     110.5
+    ],
+    "% of days trough <90% of ref": 4.97,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.59,
+    "patient's lowest trough over 90 days, median % of ref": 87.3,
+    "patient's lowest trough, 2.5th pct of patients": 84.0,
+    "patient's highest trough, 97.5th pct of patients": 111.0
+   },
+   "A_home_CV10_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     93.2,
+     94.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     86.2,
+     102.1
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     81.2,
+     107.7
+    ],
+    "% of days trough <90% of ref": 15.87,
+    "% of days trough <80% of ref": 0.02,
+    "% of days peak outside 80-125% of ref": 1.56,
+    "patient's lowest trough over 90 days, median % of ref": 84.3,
+    "patient's lowest trough, 2.5th pct of patients": 80.2,
+    "patient's highest trough, 97.5th pct of patients": 109.3
+   },
+   "B_pooled_CV10_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     92.1,
+     96.0
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     84.4,
+     104.1
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     80.4,
+     108.5
+    ],
+    "% of days trough <90% of ref": 21.53,
+    "% of days trough <80% of ref": 0.18,
+    "% of days peak outside 80-125% of ref": 2.14,
+    "patient's lowest trough over 90 days, median % of ref": 82.6,
+    "patient's lowest trough, 2.5th pct of patients": 77.8,
+    "patient's highest trough, 97.5th pct of patients": 111.9
+   },
+   "C_largestfirst_CV10_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     93.9,
+     93.1,
+     94.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     86.1,
+     101.2
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     80.9,
+     107.1
+    ],
+    "% of days trough <90% of ref": 15.92,
+    "% of days trough <80% of ref": 0.01,
+    "% of days peak outside 80-125% of ref": 1.74,
+    "patient's lowest trough over 90 days, median % of ref": 84.6,
+    "patient's lowest trough, 2.5th pct of patients": 81.3,
+    "patient's highest trough, 97.5th pct of patients": 107.5
+   },
+   "A_home_CV10_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     89.3,
+     90.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     82.5,
+     97.8
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     77.8,
+     103.2
+    ],
+    "% of days trough <90% of ref": 50.42,
+    "% of days trough <80% of ref": 0.44,
+    "% of days peak outside 80-125% of ref": 5.68,
+    "patient's lowest trough over 90 days, median % of ref": 80.8,
+    "patient's lowest trough, 2.5th pct of patients": 76.9,
+    "patient's highest trough, 97.5th pct of patients": 104.7
+   },
+   "B_pooled_CV10_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     88.1,
+     91.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     80.8,
+     99.7
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     77.0,
+     103.9
+    ],
+    "% of days trough <90% of ref": 50.7,
+    "% of days trough <80% of ref": 1.64,
+    "% of days peak outside 80-125% of ref": 6.83,
+    "patient's lowest trough over 90 days, median % of ref": 79.1,
+    "patient's lowest trough, 2.5th pct of patients": 74.5,
+    "patient's highest trough, 97.5th pct of patients": 107.4
+   },
+   "C_largestfirst_CV10_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     89.9,
+     89.2,
+     90.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     82.4,
+     96.9
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     77.4,
+     102.6
+    ],
+    "% of days trough <90% of ref": 47.16,
+    "% of days trough <80% of ref": 0.32,
+    "% of days peak outside 80-125% of ref": 6.39,
+    "patient's lowest trough over 90 days, median % of ref": 80.9,
+    "patient's lowest trough, 2.5th pct of patients": 78.1,
+    "patient's highest trough, 97.5th pct of patients": 103.2
+   },
+   "A_home_CV15_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     99.1,
+     100.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     88.1,
+     112.6
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     80.2,
+     121.8
+    ],
+    "% of days trough <90% of ref": 5.02,
+    "% of days trough <80% of ref": 0.05,
+    "% of days peak outside 80-125% of ref": 3.67,
+    "patient's lowest trough over 90 days, median % of ref": 85.3,
+    "patient's lowest trough, 2.5th pct of patients": 79.2,
+    "patient's highest trough, 97.5th pct of patients": 123.9
+   },
+   "B_pooled_CV15_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     96.9,
+     103.1
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     85.0,
+     116.1
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     78.9,
+     123.1
+    ],
+    "% of days trough <90% of ref": 10.1,
+    "% of days trough <80% of ref": 0.39,
+    "% of days peak outside 80-125% of ref": 4.96,
+    "patient's lowest trough over 90 days, median % of ref": 82.2,
+    "patient's lowest trough, 2.5th pct of patients": 74.9,
+    "patient's highest trough, 97.5th pct of patients": 129.0
+   },
+   "C_largestfirst_CV15_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     99.9,
+     99.0,
+     100.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     88.1,
+     111.2
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     79.7,
+     120.9
+    ],
+    "% of days trough <90% of ref": 5.7,
+    "% of days trough <80% of ref": 0.01,
+    "% of days peak outside 80-125% of ref": 3.85,
+    "patient's lowest trough over 90 days, median % of ref": 86.0,
+    "patient's lowest trough, 2.5th pct of patients": 81.6,
+    "patient's highest trough, 97.5th pct of patients": 121.6
+   },
+   "A_home_CV15_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.0,
+     96.2,
+     97.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     85.4,
+     109.2
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     77.8,
+     118.1
+    ],
+    "% of days trough <90% of ref": 11.82,
+    "% of days trough <80% of ref": 0.21,
+    "% of days peak outside 80-125% of ref": 4.86,
+    "patient's lowest trough over 90 days, median % of ref": 82.7,
+    "patient's lowest trough, 2.5th pct of patients": 76.4,
+    "patient's highest trough, 97.5th pct of patients": 120.3
+   },
+   "B_pooled_CV15_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.0,
+     94.0,
+     100.1
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     82.5,
+     112.6
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     76.6,
+     119.5
+    ],
+    "% of days trough <90% of ref": 18.35,
+    "% of days trough <80% of ref": 1.02,
+    "% of days peak outside 80-125% of ref": 6.25,
+    "patient's lowest trough over 90 days, median % of ref": 79.8,
+    "patient's lowest trough, 2.5th pct of patients": 72.5,
+    "patient's highest trough, 97.5th pct of patients": 125.1
+   },
+   "C_largestfirst_CV15_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     96.9,
+     96.0,
+     97.6
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     85.5,
+     107.8
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     77.3,
+     117.3
+    ],
+    "% of days trough <90% of ref": 13.14,
+    "% of days trough <80% of ref": 0.07,
+    "% of days peak outside 80-125% of ref": 5.32,
+    "patient's lowest trough over 90 days, median % of ref": 83.4,
+    "patient's lowest trough, 2.5th pct of patients": 79.1,
+    "patient's highest trough, 97.5th pct of patients": 118.1
+   },
+   "A_home_CV15_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     93.2,
+     94.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     82.8,
+     105.8
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     75.4,
+     114.5
+    ],
+    "% of days trough <90% of ref": 24.57,
+    "% of days trough <80% of ref": 0.73,
+    "% of days peak outside 80-125% of ref": 7.71,
+    "patient's lowest trough over 90 days, median % of ref": 80.2,
+    "patient's lowest trough, 2.5th pct of patients": 74.3,
+    "patient's highest trough, 97.5th pct of patients": 116.6
+   },
+   "B_pooled_CV15_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     91.1,
+     96.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     79.8,
+     109.1
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     74.1,
+     115.8
+    ],
+    "% of days trough <90% of ref": 30.33,
+    "% of days trough <80% of ref": 2.68,
+    "% of days peak outside 80-125% of ref": 9.4,
+    "patient's lowest trough over 90 days, median % of ref": 77.3,
+    "patient's lowest trough, 2.5th pct of patients": 70.5,
+    "patient's highest trough, 97.5th pct of patients": 121.1
+   },
+   "C_largestfirst_CV15_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     93.9,
+     93.1,
+     94.6
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     82.8,
+     104.5
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     74.9,
+     113.7
+    ],
+    "% of days trough <90% of ref": 22.8,
+    "% of days trough <80% of ref": 0.45,
+    "% of days peak outside 80-125% of ref": 8.44,
+    "patient's lowest trough over 90 days, median % of ref": 80.8,
+    "patient's lowest trough, 2.5th pct of patients": 76.6,
+    "patient's highest trough, 97.5th pct of patients": 114.5
+   },
+   "A_home_CV15_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     89.2,
+     90.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     79.2,
+     101.3
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     72.2,
+     109.6
+    ],
+    "% of days trough <90% of ref": 50.84,
+    "% of days trough <80% of ref": 3.45,
+    "% of days peak outside 80-125% of ref": 14.83,
+    "patient's lowest trough over 90 days, median % of ref": 76.7,
+    "patient's lowest trough, 2.5th pct of patients": 71.3,
+    "patient's highest trough, 97.5th pct of patients": 111.4
+   },
+   "B_pooled_CV15_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     87.3,
+     92.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     76.5,
+     104.5
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     71.1,
+     110.9
+    ],
+    "% of days trough <90% of ref": 51.02,
+    "% of days trough <80% of ref": 7.76,
+    "% of days peak outside 80-125% of ref": 16.52,
+    "patient's lowest trough over 90 days, median % of ref": 74.1,
+    "patient's lowest trough, 2.5th pct of patients": 67.4,
+    "patient's highest trough, 97.5th pct of patients": 116.3
+   },
+   "C_largestfirst_CV15_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     89.9,
+     89.1,
+     90.6
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     79.3,
+     100.1
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     71.7,
+     108.9
+    ],
+    "% of days trough <90% of ref": 46.94,
+    "% of days trough <80% of ref": 3.65,
+    "% of days peak outside 80-125% of ref": 15.31,
+    "patient's lowest trough over 90 days, median % of ref": 77.3,
+    "patient's lowest trough, 2.5th pct of patients": 73.4,
+    "patient's highest trough, 97.5th pct of patients": 109.7
+   },
+   "A_home_CV20_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     99.1,
+     100.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     84.4,
+     116.7
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     74.3,
+     129.3
+    ],
+    "% of days trough <90% of ref": 10.54,
+    "% of days trough <80% of ref": 0.58,
+    "% of days peak outside 80-125% of ref": 11.55,
+    "patient's lowest trough over 90 days, median % of ref": 81.0,
+    "patient's lowest trough, 2.5th pct of patients": 72.5,
+    "patient's highest trough, 97.5th pct of patients": 132.2
+   },
+   "B_pooled_CV20_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     95.8,
+     104.2
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     80.2,
+     121.6
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     72.4,
+     131.2
+    ],
+    "% of days trough <90% of ref": 17.37,
+    "% of days trough <80% of ref": 2.37,
+    "% of days peak outside 80-125% of ref": 14.18,
+    "patient's lowest trough over 90 days, median % of ref": 76.9,
+    "patient's lowest trough, 2.5th pct of patients": 67.4,
+    "patient's highest trough, 97.5th pct of patients": 139.4
+   },
+   "C_largestfirst_CV20_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     99.8,
+     99.0,
+     100.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     84.6,
+     114.7
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     73.6,
+     128.2
+    ],
+    "% of days trough <90% of ref": 12.06,
+    "% of days trough <80% of ref": 0.29,
+    "% of days peak outside 80-125% of ref": 11.67,
+    "patient's lowest trough over 90 days, median % of ref": 81.9,
+    "patient's lowest trough, 2.5th pct of patients": 76.6,
+    "patient's highest trough, 97.5th pct of patients": 128.8
+   },
+   "A_home_CV20_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.0,
+     96.1,
+     97.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     81.9,
+     113.1
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     72.0,
+     125.4
+    ],
+    "% of days trough <90% of ref": 18.5,
+    "% of days trough <80% of ref": 1.38,
+    "% of days peak outside 80-125% of ref": 12.78,
+    "patient's lowest trough over 90 days, median % of ref": 78.4,
+    "patient's lowest trough, 2.5th pct of patients": 70.9,
+    "patient's highest trough, 97.5th pct of patients": 128.4
+   },
+   "B_pooled_CV20_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     96.9,
+     93.1,
+     101.1
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     77.8,
+     117.9
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     70.3,
+     127.2
+    ],
+    "% of days trough <90% of ref": 25.45,
+    "% of days trough <80% of ref": 4.29,
+    "% of days peak outside 80-125% of ref": 15.36,
+    "patient's lowest trough over 90 days, median % of ref": 74.5,
+    "patient's lowest trough, 2.5th pct of patients": 65.1,
+    "patient's highest trough, 97.5th pct of patients": 135.4
+   },
+   "C_largestfirst_CV20_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     96.8,
+     96.0,
+     97.6
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     82.0,
+     111.3
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     71.4,
+     124.4
+    ],
+    "% of days trough <90% of ref": 18.83,
+    "% of days trough <80% of ref": 1.02,
+    "% of days peak outside 80-125% of ref": 13.27,
+    "patient's lowest trough over 90 days, median % of ref": 79.4,
+    "patient's lowest trough, 2.5th pct of patients": 74.2,
+    "patient's highest trough, 97.5th pct of patients": 125.3
+   },
+   "A_home_CV20_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     93.2,
+     94.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     79.3,
+     109.6
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     69.8,
+     121.4
+    ],
+    "% of days trough <90% of ref": 30.29,
+    "% of days trough <80% of ref": 3.07,
+    "% of days peak outside 80-125% of ref": 15.83,
+    "patient's lowest trough over 90 days, median % of ref": 76.0,
+    "patient's lowest trough, 2.5th pct of patients": 68.6,
+    "patient's highest trough, 97.5th pct of patients": 124.0
+   },
+   "B_pooled_CV20_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     90.3,
+     97.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     75.5,
+     114.3
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     68.2,
+     123.2
+    ],
+    "% of days trough <90% of ref": 35.1,
+    "% of days trough <80% of ref": 7.4,
+    "% of days peak outside 80-125% of ref": 18.01,
+    "patient's lowest trough over 90 days, median % of ref": 72.3,
+    "patient's lowest trough, 2.5th pct of patients": 64.0,
+    "patient's highest trough, 97.5th pct of patients": 131.0
+   },
+   "C_largestfirst_CV20_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     93.8,
+     93.0,
+     94.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     79.5,
+     107.8
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     69.2,
+     120.5
+    ],
+    "% of days trough <90% of ref": 26.6,
+    "% of days trough <80% of ref": 3.06,
+    "% of days peak outside 80-125% of ref": 16.16,
+    "patient's lowest trough over 90 days, median % of ref": 77.0,
+    "patient's lowest trough, 2.5th pct of patients": 72.1,
+    "patient's highest trough, 97.5th pct of patients": 121.1
+   },
+   "A_home_CV20_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     89.2,
+     90.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     76.0,
+     105.0
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     66.8,
+     116.4
+    ],
+    "% of days trough <90% of ref": 50.97,
+    "% of days trough <80% of ref": 8.2,
+    "% of days peak outside 80-125% of ref": 22.66,
+    "patient's lowest trough over 90 days, median % of ref": 72.6,
+    "patient's lowest trough, 2.5th pct of patients": 65.7,
+    "patient's highest trough, 97.5th pct of patients": 119.0
+   },
+   "B_pooled_CV20_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     86.3,
+     93.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     72.2,
+     109.4
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     65.3,
+     118.0
+    ],
+    "% of days trough <90% of ref": 51.36,
+    "% of days trough <80% of ref": 14.61,
+    "% of days peak outside 80-125% of ref": 24.61,
+    "patient's lowest trough over 90 days, median % of ref": 69.2,
+    "patient's lowest trough, 2.5th pct of patients": 61.0,
+    "patient's highest trough, 97.5th pct of patients": 125.3
+   },
+   "C_largestfirst_CV20_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     89.8,
+     89.1,
+     90.6
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     76.1,
+     103.2
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     66.2,
+     115.4
+    ],
+    "% of days trough <90% of ref": 47.03,
+    "% of days trough <80% of ref": 9.56,
+    "% of days peak outside 80-125% of ref": 22.26,
+    "patient's lowest trough over 90 days, median % of ref": 73.8,
+    "patient's lowest trough, 2.5th pct of patients": 68.9,
+    "patient's highest trough, 97.5th pct of patients": 116.0
+   },
+   "A_home_CV30_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     99.0,
+     101.0
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     77.2,
+     125.0
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     63.1,
+     144.8
+    ],
+    "% of days trough <90% of ref": 20.3,
+    "% of days trough <80% of ref": 4.38,
+    "% of days peak outside 80-125% of ref": 29.71,
+    "patient's lowest trough over 90 days, median % of ref": 72.3,
+    "patient's lowest trough, 2.5th pct of patients": 61.8,
+    "patient's highest trough, 97.5th pct of patients": 148.3
+   },
+   "B_pooled_CV30_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     99.9,
+     93.8,
+     106.1
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     71.2,
+     132.8
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     60.5,
+     147.9
+    ],
+    "% of days trough <90% of ref": 27.57,
+    "% of days trough <80% of ref": 9.81,
+    "% of days peak outside 80-125% of ref": 33.09,
+    "patient's lowest trough over 90 days, median % of ref": 66.5,
+    "patient's lowest trough, 2.5th pct of patients": 54.3,
+    "patient's highest trough, 97.5th pct of patients": 160.7
+   },
+   "C_largestfirst_CV30_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     99.7,
+     98.8,
+     100.6
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     77.6,
+     121.9
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     61.9,
+     143.1
+    ],
+    "% of days trough <90% of ref": 20.19,
+    "% of days trough <80% of ref": 4.73,
+    "% of days peak outside 80-125% of ref": 28.71,
+    "patient's lowest trough over 90 days, median % of ref": 74.2,
+    "patient's lowest trough, 2.5th pct of patients": 67.2,
+    "patient's highest trough, 97.5th pct of patients": 144.0
+   },
+   "A_home_CV30_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.0,
+     96.1,
+     98.0
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     74.9,
+     121.1
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     61.2,
+     140.4
+    ],
+    "% of days trough <90% of ref": 27.92,
+    "% of days trough <80% of ref": 6.79,
+    "% of days peak outside 80-125% of ref": 30.36,
+    "patient's lowest trough over 90 days, median % of ref": 70.0,
+    "patient's lowest trough, 2.5th pct of patients": 60.0,
+    "patient's highest trough, 97.5th pct of patients": 144.5
+   },
+   "B_pooled_CV30_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.0,
+     91.2,
+     102.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     69.3,
+     129.0
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     58.9,
+     143.5
+    ],
+    "% of days trough <90% of ref": 33.8,
+    "% of days trough <80% of ref": 13.11,
+    "% of days peak outside 80-125% of ref": 33.53,
+    "patient's lowest trough over 90 days, median % of ref": 64.8,
+    "patient's lowest trough, 2.5th pct of patients": 53.7,
+    "patient's highest trough, 97.5th pct of patients": 155.0
+   },
+   "C_largestfirst_CV30_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     96.7,
+     95.9,
+     97.6
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     75.3,
+     118.4
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     60.1,
+     138.9
+    ],
+    "% of days trough <90% of ref": 24.72,
+    "% of days trough <80% of ref": 7.91,
+    "% of days peak outside 80-125% of ref": 29.13,
+    "patient's lowest trough over 90 days, median % of ref": 71.9,
+    "patient's lowest trough, 2.5th pct of patients": 65.4,
+    "patient's highest trough, 97.5th pct of patients": 139.5
+   },
+   "A_home_CV30_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     93.1,
+     94.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     72.6,
+     117.5
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     59.3,
+     136.1
+    ],
+    "% of days trough <90% of ref": 37.05,
+    "% of days trough <80% of ref": 10.4,
+    "% of days peak outside 80-125% of ref": 32.08,
+    "patient's lowest trough over 90 days, median % of ref": 67.9,
+    "patient's lowest trough, 2.5th pct of patients": 57.4,
+    "patient's highest trough, 97.5th pct of patients": 139.9
+   },
+   "B_pooled_CV30_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     88.2,
+     99.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     67.0,
+     125.0
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     57.0,
+     139.1
+    ],
+    "% of days trough <90% of ref": 41.18,
+    "% of days trough <80% of ref": 17.52,
+    "% of days peak outside 80-125% of ref": 35.0,
+    "patient's lowest trough over 90 days, median % of ref": 62.7,
+    "patient's lowest trough, 2.5th pct of patients": 51.3,
+    "patient's highest trough, 97.5th pct of patients": 150.4
+   },
+   "C_largestfirst_CV30_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     93.7,
+     92.9,
+     94.6
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     73.0,
+     114.6
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     58.3,
+     134.6
+    ],
+    "% of days trough <90% of ref": 31.84,
+    "% of days trough <80% of ref": 12.17,
+    "% of days peak outside 80-125% of ref": 30.64,
+    "patient's lowest trough over 90 days, median % of ref": 69.8,
+    "patient's lowest trough, 2.5th pct of patients": 63.0,
+    "patient's highest trough, 97.5th pct of patients": 136.1
+   },
+   "A_home_CV30_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     89.1,
+     90.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     69.4,
+     112.5
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     56.8,
+     130.4
+    ],
+    "% of days trough <90% of ref": 51.32,
+    "% of days trough <80% of ref": 17.63,
+    "% of days peak outside 80-125% of ref": 36.12,
+    "patient's lowest trough over 90 days, median % of ref": 65.1,
+    "patient's lowest trough, 2.5th pct of patients": 55.7,
+    "patient's highest trough, 97.5th pct of patients": 134.2
+   },
+   "B_pooled_CV30_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     84.6,
+     95.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     64.2,
+     119.6
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     54.5,
+     133.1
+    ],
+    "% of days trough <90% of ref": 51.88,
+    "% of days trough <80% of ref": 24.97,
+    "% of days peak outside 80-125% of ref": 38.39,
+    "patient's lowest trough over 90 days, median % of ref": 59.9,
+    "patient's lowest trough, 2.5th pct of patients": 49.2,
+    "patient's highest trough, 97.5th pct of patients": 144.2
+   },
+   "C_largestfirst_CV30_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     89.8,
+     89.0,
+     90.5
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     69.9,
+     109.9
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     55.8,
+     129.1
+    ],
+    "% of days trough <90% of ref": 47.61,
+    "% of days trough <80% of ref": 18.46,
+    "% of days peak outside 80-125% of ref": 34.18,
+    "patient's lowest trough over 90 days, median % of ref": 66.7,
+    "patient's lowest trough, 2.5th pct of patients": 60.8,
+    "patient's highest trough, 97.5th pct of patients": 129.6
+   },
+   "BENCH_missed_1_per_28": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     95.6,
+     95.5,
+     96.5
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     56.5,
+     100.0
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     28.3,
+     100.0
+    ],
+    "% of days trough <90% of ref": 12.49,
+    "% of days trough <80% of ref": 8.43,
+    "% of days peak outside 80-125% of ref": 4.26,
+    "patient's lowest trough over 90 days, median % of ref": 56.4,
+    "patient's lowest trough, 2.5th pct of patients": 48.5,
+    "patient's highest trough, 97.5th pct of patients": 100.0
+   },
+   "BENCH_25mg_alt_day": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     100.0,
+     100.0
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     71.7,
+     128.3
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     36.3,
+     166.1
+    ],
+    "% of days trough <90% of ref": 49.44,
+    "% of days trough <80% of ref": 49.44,
+    "% of days peak outside 80-125% of ref": 100.0,
+    "patient's lowest trough over 90 days, median % of ref": 71.7,
+    "patient's lowest trough, 2.5th pct of patients": 71.7,
+    "patient's highest trough, 97.5th pct of patients": 128.3
+   }
+  }
+ },
+ "sens_thalf_44": {
+  "model": "two-compartment, terminal t1/2 44.0 h",
+  "params": {
+   "A": 252.46945801921865,
+   "alpha": 0.23667471904797904,
+   "B": 37.39180225791581,
+   "beta": 0.01575334501272603,
+   "ka": 0.7735851857355791
+  },
+  "ref_steady_state_trough_over_peak": 0.387,
+  "results": {
+   "A_home_CV10_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     99.1,
+     100.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     93.6,
+     106.6
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     88.4,
+     112.4
+    ],
+    "% of days trough <90% of ref": 0.11,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.03,
+    "patient's lowest trough over 90 days, median % of ref": 92.1,
+    "patient's lowest trough, 2.5th pct of patients": 88.7,
+    "patient's highest trough, 97.5th pct of patients": 112.3
+   },
+   "B_pooled_CV10_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     98.0,
+     102.1
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     91.5,
+     108.9
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     87.5,
+     113.5
+    ],
+    "% of days trough <90% of ref": 1.03,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.08,
+    "patient's lowest trough over 90 days, median % of ref": 90.2,
+    "patient's lowest trough, 2.5th pct of patients": 85.4,
+    "patient's highest trough, 97.5th pct of patients": 115.9
+   },
+   "C_largestfirst_CV10_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     99.9,
+     99.1,
+     100.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     93.9,
+     105.8
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     88.2,
+     111.8
+    ],
+    "% of days trough <90% of ref": 0.02,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.02,
+    "patient's lowest trough over 90 days, median % of ref": 92.7,
+    "patient's lowest trough, 2.5th pct of patients": 90.2,
+    "patient's highest trough, 97.5th pct of patients": 110.8
+   },
+   "A_home_CV10_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.0,
+     96.2,
+     97.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     90.8,
+     103.3
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     85.8,
+     109.0
+    ],
+    "% of days trough <90% of ref": 1.34,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.12,
+    "patient's lowest trough over 90 days, median % of ref": 89.4,
+    "patient's lowest trough, 2.5th pct of patients": 85.8,
+    "patient's highest trough, 97.5th pct of patients": 108.9
+   },
+   "B_pooled_CV10_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.0,
+     95.1,
+     99.1
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     88.7,
+     105.6
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     84.8,
+     110.0
+    ],
+    "% of days trough <90% of ref": 4.93,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.25,
+    "patient's lowest trough over 90 days, median % of ref": 87.4,
+    "patient's lowest trough, 2.5th pct of patients": 83.0,
+    "patient's highest trough, 97.5th pct of patients": 112.2
+   },
+   "C_largestfirst_CV10_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     96.9,
+     96.1,
+     97.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     91.0,
+     102.7
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     85.5,
+     108.5
+    ],
+    "% of days trough <90% of ref": 0.9,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.11,
+    "patient's lowest trough over 90 days, median % of ref": 89.9,
+    "patient's lowest trough, 2.5th pct of patients": 87.4,
+    "patient's highest trough, 97.5th pct of patients": 107.3
+   },
+   "A_home_CV10_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     93.2,
+     94.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     88.0,
+     100.2
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     83.1,
+     105.6
+    ],
+    "% of days trough <90% of ref": 9.24,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.54,
+    "patient's lowest trough over 90 days, median % of ref": 86.6,
+    "patient's lowest trough, 2.5th pct of patients": 83.2,
+    "patient's highest trough, 97.5th pct of patients": 105.8
+   },
+   "B_pooled_CV10_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     92.1,
+     96.0
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     86.0,
+     102.3
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     82.2,
+     106.6
+    ],
+    "% of days trough <90% of ref": 16.9,
+    "% of days trough <80% of ref": 0.02,
+    "% of days peak outside 80-125% of ref": 0.92,
+    "patient's lowest trough over 90 days, median % of ref": 84.7,
+    "patient's lowest trough, 2.5th pct of patients": 80.5,
+    "patient's highest trough, 97.5th pct of patients": 108.8
+   },
+   "C_largestfirst_CV10_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     93.9,
+     93.2,
+     94.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     88.2,
+     99.5
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     82.8,
+     105.1
+    ],
+    "% of days trough <90% of ref": 9.48,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.55,
+    "patient's lowest trough over 90 days, median % of ref": 87.1,
+    "patient's lowest trough, 2.5th pct of patients": 84.6,
+    "patient's highest trough, 97.5th pct of patients": 104.3
+   },
+   "A_home_CV10_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     89.2,
+     90.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     84.3,
+     95.9
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     79.6,
+     101.1
+    ],
+    "% of days trough <90% of ref": 50.39,
+    "% of days trough <80% of ref": 0.04,
+    "% of days peak outside 80-125% of ref": 3.07,
+    "patient's lowest trough over 90 days, median % of ref": 82.9,
+    "patient's lowest trough, 2.5th pct of patients": 79.9,
+    "patient's highest trough, 97.5th pct of patients": 101.1
+   },
+   "B_pooled_CV10_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     88.1,
+     91.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     82.3,
+     98.0
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     78.7,
+     102.0
+    ],
+    "% of days trough <90% of ref": 50.39,
+    "% of days trough <80% of ref": 0.49,
+    "% of days peak outside 80-125% of ref": 4.25,
+    "patient's lowest trough over 90 days, median % of ref": 81.1,
+    "patient's lowest trough, 2.5th pct of patients": 76.9,
+    "patient's highest trough, 97.5th pct of patients": 104.2
+   },
+   "C_largestfirst_CV10_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     89.9,
+     89.2,
+     90.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     84.4,
+     95.3
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     79.3,
+     100.6
+    ],
+    "% of days trough <90% of ref": 48.07,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 3.43,
+    "patient's lowest trough over 90 days, median % of ref": 83.4,
+    "patient's lowest trough, 2.5th pct of patients": 81.2,
+    "patient's highest trough, 97.5th pct of patients": 99.6
+   },
+   "A_home_CV15_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     99.2,
+     100.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     90.9,
+     109.4
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     83.2,
+     118.5
+    ],
+    "% of days trough <90% of ref": 1.57,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 1.36,
+    "patient's lowest trough over 90 days, median % of ref": 88.8,
+    "patient's lowest trough, 2.5th pct of patients": 83.7,
+    "patient's highest trough, 97.5th pct of patients": 118.1
+   },
+   "B_pooled_CV15_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     96.9,
+     103.0
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     87.5,
+     113.4
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     81.7,
+     120.2
+    ],
+    "% of days trough <90% of ref": 6.06,
+    "% of days trough <80% of ref": 0.06,
+    "% of days peak outside 80-125% of ref": 2.36,
+    "patient's lowest trough over 90 days, median % of ref": 85.5,
+    "patient's lowest trough, 2.5th pct of patients": 78.9,
+    "patient's highest trough, 97.5th pct of patients": 123.9
+   },
+   "C_largestfirst_CV15_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     99.9,
+     99.1,
+     100.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     91.5,
+     108.3
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     82.9,
+     117.7
+    ],
+    "% of days trough <90% of ref": 0.76,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 1.31,
+    "patient's lowest trough over 90 days, median % of ref": 90.1,
+    "patient's lowest trough, 2.5th pct of patients": 87.0,
+    "patient's highest trough, 97.5th pct of patients": 115.8
+   },
+   "A_home_CV15_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.0,
+     96.2,
+     97.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     88.2,
+     106.1
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     80.7,
+     114.9
+    ],
+    "% of days trough <90% of ref": 5.71,
+    "% of days trough <80% of ref": 0.01,
+    "% of days peak outside 80-125% of ref": 2.15,
+    "patient's lowest trough over 90 days, median % of ref": 86.1,
+    "patient's lowest trough, 2.5th pct of patients": 81.4,
+    "patient's highest trough, 97.5th pct of patients": 114.5
+   },
+   "B_pooled_CV15_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.0,
+     94.0,
+     100.0
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     84.9,
+     109.9
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     79.3,
+     116.5
+    ],
+    "% of days trough <90% of ref": 13.57,
+    "% of days trough <80% of ref": 0.26,
+    "% of days peak outside 80-125% of ref": 3.39,
+    "patient's lowest trough over 90 days, median % of ref": 82.9,
+    "patient's lowest trough, 2.5th pct of patients": 76.7,
+    "patient's highest trough, 97.5th pct of patients": 120.1
+   },
+   "C_largestfirst_CV15_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     96.9,
+     96.1,
+     97.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     88.7,
+     105.1
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     80.4,
+     114.2
+    ],
+    "% of days trough <90% of ref": 5.55,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 2.35,
+    "patient's lowest trough over 90 days, median % of ref": 87.3,
+    "patient's lowest trough, 2.5th pct of patients": 84.3,
+    "patient's highest trough, 97.5th pct of patients": 112.3
+   },
+   "A_home_CV15_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     93.2,
+     94.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     85.5,
+     102.8
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     78.2,
+     111.4
+    ],
+    "% of days trough <90% of ref": 17.27,
+    "% of days trough <80% of ref": 0.08,
+    "% of days peak outside 80-125% of ref": 4.31,
+    "patient's lowest trough over 90 days, median % of ref": 83.4,
+    "patient's lowest trough, 2.5th pct of patients": 78.8,
+    "patient's highest trough, 97.5th pct of patients": 110.9
+   },
+   "B_pooled_CV15_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     91.0,
+     96.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     82.2,
+     106.5
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     76.7,
+     113.0
+    ],
+    "% of days trough <90% of ref": 26.39,
+    "% of days trough <80% of ref": 0.93,
+    "% of days peak outside 80-125% of ref": 6.03,
+    "patient's lowest trough over 90 days, median % of ref": 80.4,
+    "patient's lowest trough, 2.5th pct of patients": 74.4,
+    "patient's highest trough, 97.5th pct of patients": 116.6
+   },
+   "C_largestfirst_CV15_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     93.9,
+     93.1,
+     94.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     86.0,
+     101.8
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     77.9,
+     110.7
+    ],
+    "% of days trough <90% of ref": 17.55,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 4.82,
+    "patient's lowest trough over 90 days, median % of ref": 84.7,
+    "patient's lowest trough, 2.5th pct of patients": 81.8,
+    "patient's highest trough, 97.5th pct of patients": 109.0
+   },
+   "A_home_CV15_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     89.2,
+     90.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     81.8,
+     98.4
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     74.9,
+     106.6
+    ],
+    "% of days trough <90% of ref": 50.58,
+    "% of days trough <80% of ref": 0.88,
+    "% of days peak outside 80-125% of ref": 10.45,
+    "patient's lowest trough over 90 days, median % of ref": 79.9,
+    "patient's lowest trough, 2.5th pct of patients": 75.5,
+    "patient's highest trough, 97.5th pct of patients": 106.5
+   },
+   "B_pooled_CV15_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     87.2,
+     92.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     78.7,
+     102.0
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     73.5,
+     108.1
+    ],
+    "% of days trough <90% of ref": 50.66,
+    "% of days trough <80% of ref": 4.2,
+    "% of days peak outside 80-125% of ref": 12.7,
+    "patient's lowest trough over 90 days, median % of ref": 77.0,
+    "patient's lowest trough, 2.5th pct of patients": 71.1,
+    "patient's highest trough, 97.5th pct of patients": 111.4
+   },
+   "C_largestfirst_CV15_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     89.9,
+     89.2,
+     90.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     82.4,
+     97.5
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     74.6,
+     106.0
+    ],
+    "% of days trough <90% of ref": 47.71,
+    "% of days trough <80% of ref": 0.24,
+    "% of days peak outside 80-125% of ref": 11.26,
+    "patient's lowest trough over 90 days, median % of ref": 81.1,
+    "patient's lowest trough, 2.5th pct of patients": 78.3,
+    "patient's highest trough, 97.5th pct of patients": 104.4
+   },
+   "A_home_CV20_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     99.1,
+     100.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     88.2,
+     112.3
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     78.2,
+     124.8
+    ],
+    "% of days trough <90% of ref": 4.72,
+    "% of days trough <80% of ref": 0.04,
+    "% of days peak outside 80-125% of ref": 6.17,
+    "patient's lowest trough over 90 days, median % of ref": 85.4,
+    "patient's lowest trough, 2.5th pct of patients": 79.4,
+    "patient's highest trough, 97.5th pct of patients": 123.9
+   },
+   "B_pooled_CV20_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     95.8,
+     104.2
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     83.5,
+     117.8
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     76.1,
+     127.1
+    ],
+    "% of days trough <90% of ref": 12.57,
+    "% of days trough <80% of ref": 0.8,
+    "% of days peak outside 80-125% of ref": 8.98,
+    "patient's lowest trough over 90 days, median % of ref": 81.0,
+    "patient's lowest trough, 2.5th pct of patients": 72.9,
+    "patient's highest trough, 97.5th pct of patients": 132.0
+   },
+   "C_largestfirst_CV20_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     99.9,
+     99.0,
+     100.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     89.1,
+     110.9
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     77.7,
+     123.9
+    ],
+    "% of days trough <90% of ref": 4.07,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 6.36,
+    "patient's lowest trough over 90 days, median % of ref": 87.3,
+    "patient's lowest trough, 2.5th pct of patients": 83.5,
+    "patient's highest trough, 97.5th pct of patients": 121.5
+   },
+   "A_home_CV20_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.0,
+     96.2,
+     97.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     85.6,
+     108.9
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     75.9,
+     120.9
+    ],
+    "% of days trough <90% of ref": 10.98,
+    "% of days trough <80% of ref": 0.18,
+    "% of days peak outside 80-125% of ref": 7.37,
+    "patient's lowest trough over 90 days, median % of ref": 82.8,
+    "patient's lowest trough, 2.5th pct of patients": 77.0,
+    "patient's highest trough, 97.5th pct of patients": 120.1
+   },
+   "B_pooled_CV20_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     96.9,
+     93.1,
+     100.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     80.9,
+     114.2
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     73.7,
+     123.2
+    ],
+    "% of days trough <90% of ref": 21.05,
+    "% of days trough <80% of ref": 1.87,
+    "% of days peak outside 80-125% of ref": 10.29,
+    "patient's lowest trough over 90 days, median % of ref": 78.5,
+    "patient's lowest trough, 2.5th pct of patients": 70.4,
+    "patient's highest trough, 97.5th pct of patients": 128.4
+   },
+   "C_largestfirst_CV20_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     96.9,
+     96.1,
+     97.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     86.4,
+     107.5
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     75.4,
+     120.1
+    ],
+    "% of days trough <90% of ref": 12.07,
+    "% of days trough <80% of ref": 0.01,
+    "% of days peak outside 80-125% of ref": 8.09,
+    "patient's lowest trough over 90 days, median % of ref": 84.7,
+    "patient's lowest trough, 2.5th pct of patients": 81.1,
+    "patient's highest trough, 97.5th pct of patients": 117.4
+   },
+   "A_home_CV20_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     93.2,
+     94.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     82.9,
+     105.6
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     73.5,
+     117.3
+    ],
+    "% of days trough <90% of ref": 23.41,
+    "% of days trough <80% of ref": 0.7,
+    "% of days peak outside 80-125% of ref": 10.58,
+    "patient's lowest trough over 90 days, median % of ref": 80.3,
+    "patient's lowest trough, 2.5th pct of patients": 74.4,
+    "patient's highest trough, 97.5th pct of patients": 116.3
+   },
+   "B_pooled_CV20_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     90.0,
+     97.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     78.5,
+     110.7
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     71.5,
+     119.4
+    ],
+    "% of days trough <90% of ref": 32.32,
+    "% of days trough <80% of ref": 3.97,
+    "% of days peak outside 80-125% of ref": 13.44,
+    "patient's lowest trough over 90 days, median % of ref": 76.2,
+    "patient's lowest trough, 2.5th pct of patients": 68.3,
+    "patient's highest trough, 97.5th pct of patients": 124.1
+   },
+   "C_largestfirst_CV20_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     93.9,
+     93.1,
+     94.6
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     83.8,
+     104.2
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     73.1,
+     116.4
+    ],
+    "% of days trough <90% of ref": 22.62,
+    "% of days trough <80% of ref": 0.11,
+    "% of days peak outside 80-125% of ref": 11.37,
+    "patient's lowest trough over 90 days, median % of ref": 82.1,
+    "patient's lowest trough, 2.5th pct of patients": 78.8,
+    "patient's highest trough, 97.5th pct of patients": 113.5
+   },
+   "A_home_CV20_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     89.2,
+     90.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     79.4,
+     101.1
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     70.4,
+     112.2
+    ],
+    "% of days trough <90% of ref": 50.59,
+    "% of days trough <80% of ref": 3.2,
+    "% of days peak outside 80-125% of ref": 17.78,
+    "patient's lowest trough over 90 days, median % of ref": 76.8,
+    "patient's lowest trough, 2.5th pct of patients": 71.4,
+    "patient's highest trough, 97.5th pct of patients": 111.6
+   },
+   "B_pooled_CV20_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     86.4,
+     93.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     75.2,
+     106.0
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     68.5,
+     114.4
+    ],
+    "% of days trough <90% of ref": 51.02,
+    "% of days trough <80% of ref": 9.86,
+    "% of days peak outside 80-125% of ref": 20.47,
+    "patient's lowest trough over 90 days, median % of ref": 73.0,
+    "patient's lowest trough, 2.5th pct of patients": 65.7,
+    "patient's highest trough, 97.5th pct of patients": 118.9
+   },
+   "C_largestfirst_CV20_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     89.9,
+     89.1,
+     90.6
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     80.2,
+     99.8
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     69.9,
+     111.4
+    ],
+    "% of days trough <90% of ref": 47.65,
+    "% of days trough <80% of ref": 2.19,
+    "% of days peak outside 80-125% of ref": 18.08,
+    "patient's lowest trough over 90 days, median % of ref": 78.6,
+    "patient's lowest trough, 2.5th pct of patients": 75.4,
+    "patient's highest trough, 97.5th pct of patients": 109.0
+   },
+   "A_home_CV30_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     99.0,
+     100.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     82.7,
+     118.3
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     68.7,
+     137.8
+    ],
+    "% of days trough <90% of ref": 12.54,
+    "% of days trough <80% of ref": 1.19,
+    "% of days peak outside 80-125% of ref": 21.5,
+    "patient's lowest trough over 90 days, median % of ref": 78.8,
+    "patient's lowest trough, 2.5th pct of patients": 70.1,
+    "patient's highest trough, 97.5th pct of patients": 136.5
+   },
+   "B_pooled_CV30_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     99.9,
+     94.1,
+     106.1
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     75.9,
+     126.9
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     65.6,
+     141.5
+    ],
+    "% of days trough <90% of ref": 22.86,
+    "% of days trough <80% of ref": 5.58,
+    "% of days peak outside 80-125% of ref": 26.11,
+    "patient's lowest trough over 90 days, median % of ref": 72.5,
+    "patient's lowest trough, 2.5th pct of patients": 61.4,
+    "patient's highest trough, 97.5th pct of patients": 148.7
+   },
+   "C_largestfirst_CV30_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     99.8,
+     98.9,
+     100.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     84.3,
+     116.2
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     68.0,
+     136.6
+    ],
+    "% of days trough <90% of ref": 13.98,
+    "% of days trough <80% of ref": 0.22,
+    "% of days peak outside 80-125% of ref": 21.08,
+    "patient's lowest trough over 90 days, median % of ref": 82.1,
+    "patient's lowest trough, 2.5th pct of patients": 77.2,
+    "patient's highest trough, 97.5th pct of patients": 131.9
+   },
+   "A_home_CV30_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.0,
+     96.1,
+     97.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     80.2,
+     114.8
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     66.6,
+     133.6
+    ],
+    "% of days trough <90% of ref": 20.29,
+    "% of days trough <80% of ref": 2.38,
+    "% of days peak outside 80-125% of ref": 22.56,
+    "patient's lowest trough over 90 days, median % of ref": 76.4,
+    "patient's lowest trough, 2.5th pct of patients": 68.3,
+    "patient's highest trough, 97.5th pct of patients": 132.2
+   },
+   "B_pooled_CV30_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.1,
+     91.2,
+     102.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     73.6,
+     123.2
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     63.5,
+     137.2
+    ],
+    "% of days trough <90% of ref": 30.07,
+    "% of days trough <80% of ref": 8.48,
+    "% of days peak outside 80-125% of ref": 26.83,
+    "patient's lowest trough over 90 days, median % of ref": 70.2,
+    "patient's lowest trough, 2.5th pct of patients": 59.9,
+    "patient's highest trough, 97.5th pct of patients": 144.5
+   },
+   "C_largestfirst_CV30_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     96.8,
+     96.0,
+     97.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     81.8,
+     112.7
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     66.0,
+     132.5
+    ],
+    "% of days trough <90% of ref": 20.67,
+    "% of days trough <80% of ref": 0.99,
+    "% of days peak outside 80-125% of ref": 22.03,
+    "patient's lowest trough over 90 days, median % of ref": 79.7,
+    "patient's lowest trough, 2.5th pct of patients": 75.1,
+    "patient's highest trough, 97.5th pct of patients": 128.0
+   },
+   "A_home_CV30_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     93.1,
+     94.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     77.7,
+     111.3
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     64.5,
+     129.6
+    ],
+    "% of days trough <90% of ref": 31.48,
+    "% of days trough <80% of ref": 4.55,
+    "% of days peak outside 80-125% of ref": 24.98,
+    "patient's lowest trough over 90 days, median % of ref": 73.9,
+    "patient's lowest trough, 2.5th pct of patients": 66.1,
+    "patient's highest trough, 97.5th pct of patients": 128.1
+   },
+   "B_pooled_CV30_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     88.4,
+     99.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     71.3,
+     119.5
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     61.6,
+     132.9
+    ],
+    "% of days trough <90% of ref": 38.74,
+    "% of days trough <80% of ref": 12.53,
+    "% of days peak outside 80-125% of ref": 28.88,
+    "patient's lowest trough over 90 days, median % of ref": 68.2,
+    "patient's lowest trough, 2.5th pct of patients": 57.7,
+    "patient's highest trough, 97.5th pct of patients": 140.1
+   },
+   "C_largestfirst_CV30_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     93.8,
+     93.0,
+     94.6
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     79.2,
+     109.1
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     63.9,
+     128.2
+    ],
+    "% of days trough <90% of ref": 27.93,
+    "% of days trough <80% of ref": 3.49,
+    "% of days peak outside 80-125% of ref": 24.25,
+    "patient's lowest trough over 90 days, median % of ref": 77.1,
+    "patient's lowest trough, 2.5th pct of patients": 72.6,
+    "patient's highest trough, 97.5th pct of patients": 124.2
+   },
+   "A_home_CV30_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     89.1,
+     90.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     74.4,
+     106.5
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     61.8,
+     123.9
+    ],
+    "% of days trough <90% of ref": 50.91,
+    "% of days trough <80% of ref": 10.08,
+    "% of days peak outside 80-125% of ref": 30.28,
+    "patient's lowest trough over 90 days, median % of ref": 70.9,
+    "patient's lowest trough, 2.5th pct of patients": 63.4,
+    "patient's highest trough, 97.5th pct of patients": 122.6
+   },
+   "B_pooled_CV30_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     84.6,
+     95.6
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     68.3,
+     114.3
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     59.0,
+     127.2
+    ],
+    "% of days trough <90% of ref": 51.4,
+    "% of days trough <80% of ref": 20.03,
+    "% of days peak outside 80-125% of ref": 33.34,
+    "patient's lowest trough over 90 days, median % of ref": 65.2,
+    "patient's lowest trough, 2.5th pct of patients": 55.1,
+    "patient's highest trough, 97.5th pct of patients": 134.2
+   },
+   "C_largestfirst_CV30_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     89.8,
+     89.0,
+     90.6
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     75.9,
+     104.5
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     61.2,
+     122.8
+    ],
+    "% of days trough <90% of ref": 47.87,
+    "% of days trough <80% of ref": 11.05,
+    "% of days peak outside 80-125% of ref": 29.04,
+    "patient's lowest trough over 90 days, median % of ref": 73.9,
+    "patient's lowest trough, 2.5th pct of patients": 69.5,
+    "patient's highest trough, 97.5th pct of patients": 118.7
+   },
+   "BENCH_missed_1_per_28": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     95.7,
+     95.4,
+     96.4
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     67.8,
+     100.0
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     38.7,
+     100.0
+    ],
+    "% of days trough <90% of ref": 16.45,
+    "% of days trough <80% of ref": 8.47,
+    "% of days peak outside 80-125% of ref": 4.27,
+    "patient's lowest trough over 90 days, median % of ref": 67.6,
+    "patient's lowest trough, 2.5th pct of patients": 57.8,
+    "patient's highest trough, 97.5th pct of patients": 100.0
+   },
+   "BENCH_25mg_alt_day": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     100.0,
+     100.0
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     80.5,
+     119.5
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     46.3,
+     155.9
+    ],
+    "% of days trough <90% of ref": 49.44,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 100.0,
+    "patient's lowest trough over 90 days, median % of ref": 80.5,
+    "patient's lowest trough, 2.5th pct of patients": 80.5,
+    "patient's highest trough, 97.5th pct of patients": 119.5
+   }
+  }
+ },
+ "sens_thalf_56": {
+  "model": "two-compartment, terminal t1/2 56.0 h",
+  "params": {
+   "A": 252.46945801921865,
+   "alpha": 0.23667471904797904,
+   "B": 37.39180225791581,
+   "beta": 0.012377628224284737,
+   "ka": 0.7735851857355791
+  },
+  "ref_steady_state_trough_over_peak": 0.455,
+  "results": {
+   "A_home_CV10_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     99.2,
+     100.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     94.7,
+     105.5
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     89.8,
+     111.0
+    ],
+    "% of days trough <90% of ref": 0.02,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.01,
+    "patient's lowest trough over 90 days, median % of ref": 93.4,
+    "patient's lowest trough, 2.5th pct of patients": 90.3,
+    "patient's highest trough, 97.5th pct of patients": 110.3
+   },
+   "B_pooled_CV10_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     98.0,
+     102.1
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     92.4,
+     107.9
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     88.7,
+     112.0
+    ],
+    "% of days trough <90% of ref": 0.46,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.02,
+    "patient's lowest trough over 90 days, median % of ref": 91.4,
+    "patient's lowest trough, 2.5th pct of patients": 87.1,
+    "patient's highest trough, 97.5th pct of patients": 114.0
+   },
+   "C_largestfirst_CV10_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     99.9,
+     99.1,
+     100.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     95.0,
+     104.9
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     89.5,
+     110.5
+    ],
+    "% of days trough <90% of ref": 0.0,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.0,
+    "patient's lowest trough over 90 days, median % of ref": 94.0,
+    "patient's lowest trough, 2.5th pct of patients": 91.9,
+    "patient's highest trough, 97.5th pct of patients": 109.0
+   },
+   "A_home_CV10_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.0,
+     96.2,
+     97.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     91.8,
+     102.3
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     87.0,
+     107.6
+    ],
+    "% of days trough <90% of ref": 0.45,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.03,
+    "patient's lowest trough over 90 days, median % of ref": 90.6,
+    "patient's lowest trough, 2.5th pct of patients": 87.6,
+    "patient's highest trough, 97.5th pct of patients": 107.0
+   },
+   "B_pooled_CV10_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.0,
+     95.0,
+     99.1
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     89.7,
+     104.7
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     86.0,
+     108.7
+    ],
+    "% of days trough <90% of ref": 3.08,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.08,
+    "patient's lowest trough over 90 days, median % of ref": 88.7,
+    "patient's lowest trough, 2.5th pct of patients": 84.6,
+    "patient's highest trough, 97.5th pct of patients": 110.5
+   },
+   "C_largestfirst_CV10_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.0,
+     96.2,
+     97.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     92.1,
+     101.8
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     86.9,
+     107.2
+    ],
+    "% of days trough <90% of ref": 0.14,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.02,
+    "patient's lowest trough over 90 days, median % of ref": 91.2,
+    "patient's lowest trough, 2.5th pct of patients": 89.1,
+    "patient's highest trough, 97.5th pct of patients": 105.8
+   },
+   "A_home_CV10_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     93.3,
+     94.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     88.9,
+     99.2
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     84.3,
+     104.3
+    ],
+    "% of days trough <90% of ref": 5.81,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.19,
+    "patient's lowest trough over 90 days, median % of ref": 87.8,
+    "patient's lowest trough, 2.5th pct of patients": 85.0,
+    "patient's highest trough, 97.5th pct of patients": 103.8
+   },
+   "B_pooled_CV10_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     92.1,
+     96.0
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     86.9,
+     101.4
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     83.3,
+     105.4
+    ],
+    "% of days trough <90% of ref": 13.99,
+    "% of days trough <80% of ref": 0.01,
+    "% of days peak outside 80-125% of ref": 0.42,
+    "patient's lowest trough over 90 days, median % of ref": 86.0,
+    "patient's lowest trough, 2.5th pct of patients": 81.8,
+    "patient's highest trough, 97.5th pct of patients": 107.0
+   },
+   "C_largestfirst_CV10_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     93.2,
+     94.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     89.3,
+     98.6
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     84.2,
+     103.9
+    ],
+    "% of days trough <90% of ref": 5.2,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.15,
+    "patient's lowest trough over 90 days, median % of ref": 88.4,
+    "patient's lowest trough, 2.5th pct of patients": 86.4,
+    "patient's highest trough, 97.5th pct of patients": 102.5
+   },
+   "A_home_CV10_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     89.3,
+     90.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     85.2,
+     94.9
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     80.8,
+     99.9
+    ],
+    "% of days trough <90% of ref": 50.45,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 1.65,
+    "patient's lowest trough over 90 days, median % of ref": 84.1,
+    "patient's lowest trough, 2.5th pct of patients": 81.3,
+    "patient's highest trough, 97.5th pct of patients": 99.2
+   },
+   "B_pooled_CV10_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     88.1,
+     91.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     83.2,
+     97.1
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     79.8,
+     100.9
+    ],
+    "% of days trough <90% of ref": 50.51,
+    "% of days trough <80% of ref": 0.18,
+    "% of days peak outside 80-125% of ref": 2.73,
+    "patient's lowest trough over 90 days, median % of ref": 82.3,
+    "patient's lowest trough, 2.5th pct of patients": 78.4,
+    "patient's highest trough, 97.5th pct of patients": 102.6
+   },
+   "C_largestfirst_CV10_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     89.2,
+     90.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     85.5,
+     94.4
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     80.6,
+     99.5
+    ],
+    "% of days trough <90% of ref": 48.62,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 1.76,
+    "patient's lowest trough over 90 days, median % of ref": 84.6,
+    "patient's lowest trough, 2.5th pct of patients": 82.7,
+    "patient's highest trough, 97.5th pct of patients": 98.2
+   },
+   "A_home_CV15_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     99.2,
+     100.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     92.4,
+     107.8
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     85.1,
+     116.4
+    ],
+    "% of days trough <90% of ref": 0.54,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.5,
+    "patient's lowest trough over 90 days, median % of ref": 90.6,
+    "patient's lowest trough, 2.5th pct of patients": 86.5,
+    "patient's highest trough, 97.5th pct of patients": 114.9
+   },
+   "B_pooled_CV15_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     97.1,
+     103.0
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     88.8,
+     111.7
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     83.4,
+     118.1
+    ],
+    "% of days trough <90% of ref": 4.07,
+    "% of days trough <80% of ref": 0.01,
+    "% of days peak outside 80-125% of ref": 1.2,
+    "patient's lowest trough over 90 days, median % of ref": 87.4,
+    "patient's lowest trough, 2.5th pct of patients": 81.2,
+    "patient's highest trough, 97.5th pct of patients": 121.0
+   },
+   "C_largestfirst_CV15_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     99.9,
+     99.1,
+     100.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     93.2,
+     106.9
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     84.9,
+     115.7
+    ],
+    "% of days trough <90% of ref": 0.06,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.44,
+    "patient's lowest trough over 90 days, median % of ref": 92.1,
+    "patient's lowest trough, 2.5th pct of patients": 89.6,
+    "patient's highest trough, 97.5th pct of patients": 113.0
+   },
+   "A_home_CV15_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.0,
+     96.2,
+     97.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     89.7,
+     104.5
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     82.6,
+     112.9
+    ],
+    "% of days trough <90% of ref": 2.96,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.97,
+    "patient's lowest trough over 90 days, median % of ref": 87.9,
+    "patient's lowest trough, 2.5th pct of patients": 83.9,
+    "patient's highest trough, 97.5th pct of patients": 111.4
+   },
+   "B_pooled_CV15_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.0,
+     94.1,
+     100.0
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     86.2,
+     108.4
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     81.0,
+     114.5
+    ],
+    "% of days trough <90% of ref": 10.62,
+    "% of days trough <80% of ref": 0.07,
+    "% of days peak outside 80-125% of ref": 1.97,
+    "patient's lowest trough over 90 days, median % of ref": 84.8,
+    "patient's lowest trough, 2.5th pct of patients": 79.1,
+    "patient's highest trough, 97.5th pct of patients": 117.3
+   },
+   "C_largestfirst_CV15_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     96.9,
+     96.1,
+     97.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     90.4,
+     103.7
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     82.4,
+     112.2
+    ],
+    "% of days trough <90% of ref": 1.75,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.97,
+    "patient's lowest trough over 90 days, median % of ref": 89.3,
+    "patient's lowest trough, 2.5th pct of patients": 87.0,
+    "patient's highest trough, 97.5th pct of patients": 109.4
+   },
+   "A_home_CV15_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     93.2,
+     94.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     86.9,
+     101.3
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     80.1,
+     109.3
+    ],
+    "% of days trough <90% of ref": 12.56,
+    "% of days trough <80% of ref": 0.01,
+    "% of days peak outside 80-125% of ref": 2.46,
+    "patient's lowest trough over 90 days, median % of ref": 85.2,
+    "patient's lowest trough, 2.5th pct of patients": 81.2,
+    "patient's highest trough, 97.5th pct of patients": 107.7
+   },
+   "B_pooled_CV15_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     91.2,
+     96.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     83.6,
+     105.1
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     78.5,
+     111.0
+    ],
+    "% of days trough <90% of ref": 23.6,
+    "% of days trough <80% of ref": 0.38,
+    "% of days peak outside 80-125% of ref": 4.01,
+    "patient's lowest trough over 90 days, median % of ref": 82.2,
+    "patient's lowest trough, 2.5th pct of patients": 76.5,
+    "patient's highest trough, 97.5th pct of patients": 113.7
+   },
+   "C_largestfirst_CV15_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     93.9,
+     93.2,
+     94.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     87.6,
+     100.5
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     79.8,
+     108.7
+    ],
+    "% of days trough <90% of ref": 12.87,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 2.66,
+    "patient's lowest trough over 90 days, median % of ref": 86.6,
+    "patient's lowest trough, 2.5th pct of patients": 84.2,
+    "patient's highest trough, 97.5th pct of patients": 106.1
+   },
+   "A_home_CV15_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     89.2,
+     90.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     83.2,
+     97.0
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     76.7,
+     104.7
+    ],
+    "% of days trough <90% of ref": 50.48,
+    "% of days trough <80% of ref": 0.23,
+    "% of days peak outside 80-125% of ref": 7.61,
+    "patient's lowest trough over 90 days, median % of ref": 81.6,
+    "patient's lowest trough, 2.5th pct of patients": 77.9,
+    "patient's highest trough, 97.5th pct of patients": 103.3
+   },
+   "B_pooled_CV15_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     87.3,
+     92.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     79.9,
+     100.6
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     75.1,
+     106.3
+    ],
+    "% of days trough <90% of ref": 50.87,
+    "% of days trough <80% of ref": 2.57,
+    "% of days peak outside 80-125% of ref": 10.24,
+    "patient's lowest trough over 90 days, median % of ref": 78.6,
+    "patient's lowest trough, 2.5th pct of patients": 73.2,
+    "patient's highest trough, 97.5th pct of patients": 108.6
+   },
+   "C_largestfirst_CV15_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     89.9,
+     89.2,
+     90.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     83.9,
+     96.2
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     76.5,
+     104.1
+    ],
+    "% of days trough <90% of ref": 48.36,
+    "% of days trough <80% of ref": 0.01,
+    "% of days peak outside 80-125% of ref": 8.28,
+    "patient's lowest trough over 90 days, median % of ref": 82.9,
+    "patient's lowest trough, 2.5th pct of patients": 80.6,
+    "patient's highest trough, 97.5th pct of patients": 101.7
+   },
+   "A_home_CV20_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     99.2,
+     100.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     90.2,
+     110.2
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     80.6,
+     122.0
+    ],
+    "% of days trough <90% of ref": 2.32,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 3.47,
+    "patient's lowest trough over 90 days, median % of ref": 87.8,
+    "patient's lowest trough, 2.5th pct of patients": 82.6,
+    "patient's highest trough, 97.5th pct of patients": 120.0
+   },
+   "B_pooled_CV20_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     95.9,
+     104.0
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     85.2,
+     115.7
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     78.3,
+     124.3
+    ],
+    "% of days trough <90% of ref": 9.77,
+    "% of days trough <80% of ref": 0.32,
+    "% of days peak outside 80-125% of ref": 5.85,
+    "patient's lowest trough over 90 days, median % of ref": 83.4,
+    "patient's lowest trough, 2.5th pct of patients": 75.9,
+    "patient's highest trough, 97.5th pct of patients": 128.0
+   },
+   "C_largestfirst_CV20_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     99.9,
+     99.1,
+     100.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     91.3,
+     108.9
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     80.4,
+     121.1
+    ],
+    "% of days trough <90% of ref": 0.82,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 3.39,
+    "patient's lowest trough over 90 days, median % of ref": 90.0,
+    "patient's lowest trough, 2.5th pct of patients": 87.1,
+    "patient's highest trough, 97.5th pct of patients": 117.0
+   },
+   "A_home_CV20_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.0,
+     96.2,
+     97.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     87.5,
+     106.9
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     78.3,
+     118.2
+    ],
+    "% of days trough <90% of ref": 7.05,
+    "% of days trough <80% of ref": 0.03,
+    "% of days peak outside 80-125% of ref": 4.51,
+    "patient's lowest trough over 90 days, median % of ref": 85.2,
+    "patient's lowest trough, 2.5th pct of patients": 79.9,
+    "patient's highest trough, 97.5th pct of patients": 116.0
+   },
+   "B_pooled_CV20_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.0,
+     93.1,
+     100.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     82.8,
+     112.3
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     76.1,
+     120.7
+    ],
+    "% of days trough <90% of ref": 17.85,
+    "% of days trough <80% of ref": 0.89,
+    "% of days peak outside 80-125% of ref": 7.23,
+    "patient's lowest trough over 90 days, median % of ref": 81.0,
+    "patient's lowest trough, 2.5th pct of patients": 73.9,
+    "patient's highest trough, 97.5th pct of patients": 124.0
+   },
+   "C_largestfirst_CV20_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     96.9,
+     96.1,
+     97.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     88.6,
+     105.7
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     78.0,
+     117.4
+    ],
+    "% of days trough <90% of ref": 6.27,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 4.83,
+    "patient's lowest trough over 90 days, median % of ref": 87.4,
+    "patient's lowest trough, 2.5th pct of patients": 84.6,
+    "patient's highest trough, 97.5th pct of patients": 113.6
+   },
+   "A_home_CV20_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     93.2,
+     94.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     84.8,
+     103.5
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     75.9,
+     114.6
+    ],
+    "% of days trough <90% of ref": 18.57,
+    "% of days trough <80% of ref": 0.16,
+    "% of days peak outside 80-125% of ref": 7.35,
+    "patient's lowest trough over 90 days, median % of ref": 82.6,
+    "patient's lowest trough, 2.5th pct of patients": 77.7,
+    "patient's highest trough, 97.5th pct of patients": 112.3
+   },
+   "B_pooled_CV20_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     90.3,
+     97.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     80.1,
+     108.9
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     73.7,
+     116.9
+    ],
+    "% of days trough <90% of ref": 29.78,
+    "% of days trough <80% of ref": 2.38,
+    "% of days peak outside 80-125% of ref": 10.29,
+    "patient's lowest trough over 90 days, median % of ref": 78.4,
+    "patient's lowest trough, 2.5th pct of patients": 71.0,
+    "patient's highest trough, 97.5th pct of patients": 120.6
+   },
+   "C_largestfirst_CV20_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     93.9,
+     93.1,
+     94.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     85.9,
+     102.4
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     75.6,
+     113.9
+    ],
+    "% of days trough <90% of ref": 19.18,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 8.08,
+    "patient's lowest trough over 90 days, median % of ref": 84.6,
+    "patient's lowest trough, 2.5th pct of patients": 81.9,
+    "patient's highest trough, 97.5th pct of patients": 110.2
+   },
+   "A_home_CV20_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     89.2,
+     90.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     81.2,
+     99.1
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     72.6,
+     109.7
+    ],
+    "% of days trough <90% of ref": 50.49,
+    "% of days trough <80% of ref": 1.38,
+    "% of days peak outside 80-125% of ref": 14.42,
+    "patient's lowest trough over 90 days, median % of ref": 79.1,
+    "patient's lowest trough, 2.5th pct of patients": 74.4,
+    "patient's highest trough, 97.5th pct of patients": 107.4
+   },
+   "B_pooled_CV20_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     86.3,
+     93.6
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     76.8,
+     104.1
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     70.6,
+     111.8
+    ],
+    "% of days trough <90% of ref": 51.11,
+    "% of days trough <80% of ref": 7.26,
+    "% of days peak outside 80-125% of ref": 17.55,
+    "patient's lowest trough over 90 days, median % of ref": 75.1,
+    "patient's lowest trough, 2.5th pct of patients": 68.5,
+    "patient's highest trough, 97.5th pct of patients": 115.0
+   },
+   "C_largestfirst_CV20_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     89.9,
+     89.2,
+     90.6
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     82.2,
+     98.1
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     72.3,
+     109.0
+    ],
+    "% of days trough <90% of ref": 48.13,
+    "% of days trough <80% of ref": 0.26,
+    "% of days peak outside 80-125% of ref": 15.08,
+    "patient's lowest trough over 90 days, median % of ref": 81.0,
+    "patient's lowest trough, 2.5th pct of patients": 78.4,
+    "patient's highest trough, 97.5th pct of patients": 105.6
+   },
+   "A_home_CV30_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     99.1,
+     101.0
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     85.6,
+     115.0
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     72.3,
+     133.4
+    ],
+    "% of days trough <90% of ref": 8.15,
+    "% of days trough <80% of ref": 0.34,
+    "% of days peak outside 80-125% of ref": 15.79,
+    "patient's lowest trough over 90 days, median % of ref": 82.3,
+    "patient's lowest trough, 2.5th pct of patients": 75.1,
+    "patient's highest trough, 97.5th pct of patients": 129.2
+   },
+   "B_pooled_CV30_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.1,
+     94.0,
+     106.3
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     78.4,
+     124.0
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     68.8,
+     137.3
+    ],
+    "% of days trough <90% of ref": 19.72,
+    "% of days trough <80% of ref": 3.59,
+    "% of days peak outside 80-125% of ref": 21.02,
+    "patient's lowest trough over 90 days, median % of ref": 76.0,
+    "patient's lowest trough, 2.5th pct of patients": 65.4,
+    "patient's highest trough, 97.5th pct of patients": 143.3
+   },
+   "C_largestfirst_CV30_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     99.8,
+     99.0,
+     100.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     87.7,
+     113.2
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     71.9,
+     132.2
+    ],
+    "% of days trough <90% of ref": 7.59,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 15.76,
+    "patient's lowest trough over 90 days, median % of ref": 86.0,
+    "patient's lowest trough, 2.5th pct of patients": 82.3,
+    "patient's highest trough, 97.5th pct of patients": 125.9
+   },
+   "A_home_CV30_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.0,
+     96.1,
+     97.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     83.0,
+     111.6
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     70.1,
+     129.5
+    ],
+    "% of days trough <90% of ref": 15.3,
+    "% of days trough <80% of ref": 0.88,
+    "% of days peak outside 80-125% of ref": 17.21,
+    "patient's lowest trough over 90 days, median % of ref": 79.8,
+    "patient's lowest trough, 2.5th pct of patients": 72.8,
+    "patient's highest trough, 97.5th pct of patients": 125.6
+   },
+   "B_pooled_CV30_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.0,
+     91.2,
+     103.1
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     76.0,
+     120.2
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     66.8,
+     133.3
+    ],
+    "% of days trough <90% of ref": 27.27,
+    "% of days trough <80% of ref": 5.92,
+    "% of days peak outside 80-125% of ref": 22.05,
+    "patient's lowest trough over 90 days, median % of ref": 73.6,
+    "patient's lowest trough, 2.5th pct of patients": 63.2,
+    "patient's highest trough, 97.5th pct of patients": 138.3
+   },
+   "C_largestfirst_CV30_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     96.8,
+     96.0,
+     97.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     85.0,
+     109.8
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     69.8,
+     128.3
+    ],
+    "% of days trough <90% of ref": 16.86,
+    "% of days trough <80% of ref": 0.03,
+    "% of days peak outside 80-125% of ref": 17.31,
+    "patient's lowest trough over 90 days, median % of ref": 83.4,
+    "patient's lowest trough, 2.5th pct of patients": 79.9,
+    "patient's highest trough, 97.5th pct of patients": 121.8
+   },
+   "A_home_CV30_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     93.1,
+     94.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     80.5,
+     108.2
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     67.9,
+     125.4
+    ],
+    "% of days trough <90% of ref": 27.05,
+    "% of days trough <80% of ref": 2.13,
+    "% of days peak outside 80-125% of ref": 19.99,
+    "patient's lowest trough over 90 days, median % of ref": 77.4,
+    "patient's lowest trough, 2.5th pct of patients": 70.5,
+    "patient's highest trough, 97.5th pct of patients": 121.4
+   },
+   "B_pooled_CV30_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     88.5,
+     99.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     73.7,
+     116.3
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     64.8,
+     129.0
+    ],
+    "% of days trough <90% of ref": 36.97,
+    "% of days trough <80% of ref": 9.54,
+    "% of days peak outside 80-125% of ref": 24.56,
+    "patient's lowest trough over 90 days, median % of ref": 71.3,
+    "patient's lowest trough, 2.5th pct of patients": 61.2,
+    "patient's highest trough, 97.5th pct of patients": 134.1
+   },
+   "C_largestfirst_CV30_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     93.9,
+     93.1,
+     94.6
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     82.4,
+     106.3
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     67.6,
+     124.4
+    ],
+    "% of days trough <90% of ref": 25.72,
+    "% of days trough <80% of ref": 0.43,
+    "% of days peak outside 80-125% of ref": 20.01,
+    "patient's lowest trough over 90 days, median % of ref": 80.9,
+    "patient's lowest trough, 2.5th pct of patients": 77.3,
+    "patient's highest trough, 97.5th pct of patients": 117.8
+   },
+   "A_home_CV30_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     89.2,
+     90.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     77.1,
+     103.5
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     65.1,
+     119.9
+    ],
+    "% of days trough <90% of ref": 50.75,
+    "% of days trough <80% of ref": 6.13,
+    "% of days peak outside 80-125% of ref": 26.31,
+    "patient's lowest trough over 90 days, median % of ref": 74.1,
+    "patient's lowest trough, 2.5th pct of patients": 67.5,
+    "patient's highest trough, 97.5th pct of patients": 116.4
+   },
+   "B_pooled_CV30_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     84.6,
+     95.4
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     70.6,
+     111.5
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     62.0,
+     123.7
+    ],
+    "% of days trough <90% of ref": 51.47,
+    "% of days trough <80% of ref": 17.03,
+    "% of days peak outside 80-125% of ref": 30.01,
+    "patient's lowest trough over 90 days, median % of ref": 68.2,
+    "patient's lowest trough, 2.5th pct of patients": 58.8,
+    "patient's highest trough, 97.5th pct of patients": 128.5
+   },
+   "C_largestfirst_CV30_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     89.8,
+     89.1,
+     90.6
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     78.9,
+     101.9
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     64.7,
+     119.1
+    ],
+    "% of days trough <90% of ref": 48.14,
+    "% of days trough <80% of ref": 4.81,
+    "% of days peak outside 80-125% of ref": 25.61,
+    "patient's lowest trough over 90 days, median % of ref": 77.4,
+    "patient's lowest trough, 2.5th pct of patients": 74.1,
+    "patient's highest trough, 97.5th pct of patients": 113.1
+   },
+   "BENCH_missed_1_per_28": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     95.8,
+     95.4,
+     96.4
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     73.7,
+     100.0
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     45.5,
+     100.0
+    ],
+    "% of days trough <90% of ref": 16.5,
+    "% of days trough <80% of ref": 4.68,
+    "% of days peak outside 80-125% of ref": 4.27,
+    "patient's lowest trough over 90 days, median % of ref": 73.2,
+    "patient's lowest trough, 2.5th pct of patients": 63.3,
+    "patient's highest trough, 97.5th pct of patients": 100.0
+   },
+   "BENCH_25mg_alt_day": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     100.0,
+     100.0
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     84.6,
+     115.4
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     52.5,
+     149.4
+    ],
+    "% of days trough <90% of ref": 49.44,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 100.0,
+    "patient's lowest trough over 90 days, median % of ref": 84.6,
+    "patient's lowest trough, 2.5th pct of patients": 84.6,
+    "patient's highest trough, 97.5th pct of patients": 115.4
+   }
+  }
+ },
+ "sens_onecomp": {
+  "model": "one-compartment, t1/2 38.2 h",
+  "params": {
+   "A": 0.0,
+   "alpha": 1.0,
+   "B": 1.0,
+   "beta": 0.018140465337868235,
+   "ka": 1.8730014082960162
+  },
+  "ref_steady_state_trough_over_peak": 0.677,
+  "results": {
+   "A_home_CV10_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     99.1,
+     100.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     93.1,
+     107.2
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     93.1,
+     107.1
+    ],
+    "% of days trough <90% of ref": 0.26,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.0,
+    "patient's lowest trough over 90 days, median % of ref": 91.4,
+    "patient's lowest trough, 2.5th pct of patients": 87.7,
+    "patient's highest trough, 97.5th pct of patients": 113.4
+   },
+   "B_pooled_CV10_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     98.0,
+     102.1
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     91.0,
+     109.5
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     91.0,
+     109.4
+    ],
+    "% of days trough <90% of ref": 1.46,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.0,
+    "patient's lowest trough over 90 days, median % of ref": 89.5,
+    "patient's lowest trough, 2.5th pct of patients": 84.7,
+    "patient's highest trough, 97.5th pct of patients": 117.0
+   },
+   "C_largestfirst_CV10_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     99.1,
+     100.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     93.2,
+     106.4
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     93.3,
+     106.3
+    ],
+    "% of days trough <90% of ref": 0.08,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.0,
+    "patient's lowest trough over 90 days, median % of ref": 91.9,
+    "patient's lowest trough, 2.5th pct of patients": 89.3,
+    "patient's highest trough, 97.5th pct of patients": 111.8
+   },
+   "A_home_CV10_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.0,
+     96.2,
+     97.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     90.2,
+     103.9
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     90.3,
+     103.9
+    ],
+    "% of days trough <90% of ref": 2.09,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.0,
+    "patient's lowest trough over 90 days, median % of ref": 88.7,
+    "patient's lowest trough, 2.5th pct of patients": 85.0,
+    "patient's highest trough, 97.5th pct of patients": 110.0
+   },
+   "B_pooled_CV10_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.0,
+     95.0,
+     99.0
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     88.2,
+     106.2
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     88.3,
+     106.1
+    ],
+    "% of days trough <90% of ref": 6.03,
+    "% of days trough <80% of ref": 0.01,
+    "% of days peak outside 80-125% of ref": 0.01,
+    "patient's lowest trough over 90 days, median % of ref": 86.8,
+    "patient's lowest trough, 2.5th pct of patients": 82.1,
+    "patient's highest trough, 97.5th pct of patients": 113.5
+   },
+   "C_largestfirst_CV10_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.0,
+     96.2,
+     97.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     90.4,
+     103.2
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     90.5,
+     103.1
+    ],
+    "% of days trough <90% of ref": 1.73,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.0,
+    "patient's lowest trough over 90 days, median % of ref": 89.2,
+    "patient's lowest trough, 2.5th pct of patients": 86.5,
+    "patient's highest trough, 97.5th pct of patients": 108.5
+   },
+   "A_home_CV10_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     93.2,
+     94.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     87.5,
+     100.7
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     87.5,
+     100.7
+    ],
+    "% of days trough <90% of ref": 11.31,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.0,
+    "patient's lowest trough over 90 days, median % of ref": 85.9,
+    "patient's lowest trough, 2.5th pct of patients": 82.4,
+    "patient's highest trough, 97.5th pct of patients": 106.7
+   },
+   "B_pooled_CV10_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     92.1,
+     95.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     85.5,
+     102.9
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     85.6,
+     102.8
+    ],
+    "% of days trough <90% of ref": 18.43,
+    "% of days trough <80% of ref": 0.05,
+    "% of days peak outside 80-125% of ref": 0.04,
+    "patient's lowest trough over 90 days, median % of ref": 84.1,
+    "patient's lowest trough, 2.5th pct of patients": 79.6,
+    "patient's highest trough, 97.5th pct of patients": 109.6
+   },
+   "C_largestfirst_CV10_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     93.2,
+     94.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     87.6,
+     100.0
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     87.7,
+     99.9
+    ],
+    "% of days trough <90% of ref": 11.48,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.0,
+    "patient's lowest trough over 90 days, median % of ref": 86.4,
+    "patient's lowest trough, 2.5th pct of patients": 83.8,
+    "patient's highest trough, 97.5th pct of patients": 105.0
+   },
+   "A_home_CV10_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     89.2,
+     90.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     83.8,
+     96.4
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     83.8,
+     96.4
+    ],
+    "% of days trough <90% of ref": 50.54,
+    "% of days trough <80% of ref": 0.1,
+    "% of days peak outside 80-125% of ref": 0.09,
+    "patient's lowest trough over 90 days, median % of ref": 82.3,
+    "patient's lowest trough, 2.5th pct of patients": 78.9,
+    "patient's highest trough, 97.5th pct of patients": 102.1
+   },
+   "B_pooled_CV10_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     88.1,
+     91.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     81.8,
+     98.5
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     81.9,
+     98.5
+    ],
+    "% of days trough <90% of ref": 50.73,
+    "% of days trough <80% of ref": 0.77,
+    "% of days peak outside 80-125% of ref": 0.73,
+    "patient's lowest trough over 90 days, median % of ref": 80.5,
+    "patient's lowest trough, 2.5th pct of patients": 76.2,
+    "patient's highest trough, 97.5th pct of patients": 105.1
+   },
+   "C_largestfirst_CV10_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     89.3,
+     90.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     83.9,
+     95.8
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     84.0,
+     95.7
+    ],
+    "% of days trough <90% of ref": 47.73,
+    "% of days trough <80% of ref": 0.02,
+    "% of days peak outside 80-125% of ref": 0.01,
+    "patient's lowest trough over 90 days, median % of ref": 82.7,
+    "patient's lowest trough, 2.5th pct of patients": 80.3,
+    "patient's highest trough, 97.5th pct of patients": 100.7
+   },
+   "A_home_CV15_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     99.2,
+     100.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     90.1,
+     110.3
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     90.2,
+     110.2
+    ],
+    "% of days trough <90% of ref": 2.39,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.0,
+    "patient's lowest trough over 90 days, median % of ref": 87.7,
+    "patient's lowest trough, 2.5th pct of patients": 82.4,
+    "patient's highest trough, 97.5th pct of patients": 119.7
+   },
+   "B_pooled_CV15_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     97.0,
+     103.1
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     86.7,
+     114.1
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     86.8,
+     114.0
+    ],
+    "% of days trough <90% of ref": 7.32,
+    "% of days trough <80% of ref": 0.11,
+    "% of days peak outside 80-125% of ref": 0.14,
+    "patient's lowest trough over 90 days, median % of ref": 84.5,
+    "patient's lowest trough, 2.5th pct of patients": 77.8,
+    "patient's highest trough, 97.5th pct of patients": 125.2
+   },
+   "C_largestfirst_CV15_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     99.9,
+     99.1,
+     100.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     90.6,
+     109.1
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     90.7,
+     109.0
+    ],
+    "% of days trough <90% of ref": 1.73,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.0,
+    "patient's lowest trough over 90 days, median % of ref": 88.9,
+    "patient's lowest trough, 2.5th pct of patients": 85.5,
+    "patient's highest trough, 97.5th pct of patients": 116.9
+   },
+   "A_home_CV15_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.0,
+     96.2,
+     97.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     87.4,
+     107.0
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     87.5,
+     106.8
+    ],
+    "% of days trough <90% of ref": 7.4,
+    "% of days trough <80% of ref": 0.03,
+    "% of days peak outside 80-125% of ref": 0.03,
+    "patient's lowest trough over 90 days, median % of ref": 85.1,
+    "patient's lowest trough, 2.5th pct of patients": 79.9,
+    "patient's highest trough, 97.5th pct of patients": 116.1
+   },
+   "B_pooled_CV15_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.0,
+     94.0,
+     100.0
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     84.1,
+     110.8
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     84.1,
+     110.7
+    ],
+    "% of days trough <90% of ref": 15.07,
+    "% of days trough <80% of ref": 0.42,
+    "% of days peak outside 80-125% of ref": 0.41,
+    "patient's lowest trough over 90 days, median % of ref": 82.0,
+    "patient's lowest trough, 2.5th pct of patients": 75.2,
+    "patient's highest trough, 97.5th pct of patients": 121.4
+   },
+   "C_largestfirst_CV15_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     96.9,
+     96.2,
+     97.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     87.8,
+     105.8
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     88.0,
+     105.7
+    ],
+    "% of days trough <90% of ref": 7.89,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.0,
+    "patient's lowest trough over 90 days, median % of ref": 86.2,
+    "patient's lowest trough, 2.5th pct of patients": 82.9,
+    "patient's highest trough, 97.5th pct of patients": 114.0
+   },
+   "A_home_CV15_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     93.2,
+     94.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     84.7,
+     103.7
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     84.8,
+     103.5
+    ],
+    "% of days trough <90% of ref": 19.54,
+    "% of days trough <80% of ref": 0.18,
+    "% of days peak outside 80-125% of ref": 0.17,
+    "patient's lowest trough over 90 days, median % of ref": 82.4,
+    "patient's lowest trough, 2.5th pct of patients": 77.5,
+    "patient's highest trough, 97.5th pct of patients": 112.5
+   },
+   "B_pooled_CV15_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     91.1,
+     96.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     81.5,
+     107.3
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     81.6,
+     107.2
+    ],
+    "% of days trough <90% of ref": 27.52,
+    "% of days trough <80% of ref": 1.36,
+    "% of days peak outside 80-125% of ref": 1.32,
+    "patient's lowest trough over 90 days, median % of ref": 79.4,
+    "patient's lowest trough, 2.5th pct of patients": 73.1,
+    "patient's highest trough, 97.5th pct of patients": 117.8
+   },
+   "C_largestfirst_CV15_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     93.9,
+     93.1,
+     94.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     85.1,
+     102.6
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     85.3,
+     102.5
+    ],
+    "% of days trough <90% of ref": 19.28,
+    "% of days trough <80% of ref": 0.01,
+    "% of days peak outside 80-125% of ref": 0.01,
+    "patient's lowest trough over 90 days, median % of ref": 83.6,
+    "patient's lowest trough, 2.5th pct of patients": 80.5,
+    "patient's highest trough, 97.5th pct of patients": 110.4
+   },
+   "A_home_CV15_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     89.3,
+     90.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     81.0,
+     99.2
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     81.1,
+     99.1
+    ],
+    "% of days trough <90% of ref": 50.59,
+    "% of days trough <80% of ref": 1.48,
+    "% of days peak outside 80-125% of ref": 1.4,
+    "patient's lowest trough over 90 days, median % of ref": 78.9,
+    "patient's lowest trough, 2.5th pct of patients": 74.0,
+    "patient's highest trough, 97.5th pct of patients": 107.7
+   },
+   "B_pooled_CV15_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     87.2,
+     92.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     78.0,
+     102.7
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     78.1,
+     102.6
+    ],
+    "% of days trough <90% of ref": 50.78,
+    "% of days trough <80% of ref": 5.29,
+    "% of days peak outside 80-125% of ref": 5.19,
+    "patient's lowest trough over 90 days, median % of ref": 76.1,
+    "patient's lowest trough, 2.5th pct of patients": 70.0,
+    "patient's highest trough, 97.5th pct of patients": 112.8
+   },
+   "C_largestfirst_CV15_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     89.9,
+     89.2,
+     90.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     81.5,
+     98.2
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     81.6,
+     98.1
+    ],
+    "% of days trough <90% of ref": 47.53,
+    "% of days trough <80% of ref": 0.79,
+    "% of days peak outside 80-125% of ref": 0.68,
+    "patient's lowest trough over 90 days, median % of ref": 80.0,
+    "patient's lowest trough, 2.5th pct of patients": 77.0,
+    "patient's highest trough, 97.5th pct of patients": 105.6
+   },
+   "A_home_CV20_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     99.1,
+     100.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     87.1,
+     113.6
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     87.3,
+     113.4
+    ],
+    "% of days trough <90% of ref": 6.24,
+    "% of days trough <80% of ref": 0.14,
+    "% of days peak outside 80-125% of ref": 0.17,
+    "patient's lowest trough over 90 days, median % of ref": 84.0,
+    "patient's lowest trough, 2.5th pct of patients": 77.0,
+    "patient's highest trough, 97.5th pct of patients": 126.3
+   },
+   "B_pooled_CV20_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     96.0,
+     104.1
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     82.5,
+     119.0
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     82.6,
+     118.9
+    ],
+    "% of days trough <90% of ref": 14.03,
+    "% of days trough <80% of ref": 1.16,
+    "% of days peak outside 80-125% of ref": 1.67,
+    "patient's lowest trough over 90 days, median % of ref": 79.8,
+    "patient's lowest trough, 2.5th pct of patients": 71.3,
+    "patient's highest trough, 97.5th pct of patients": 133.8
+   },
+   "C_largestfirst_CV20_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     99.9,
+     99.1,
+     100.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     87.9,
+     111.9
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     88.1,
+     111.8
+    ],
+    "% of days trough <90% of ref": 6.39,
+    "% of days trough <80% of ref": 0.0,
+    "% of days peak outside 80-125% of ref": 0.01,
+    "patient's lowest trough over 90 days, median % of ref": 85.9,
+    "patient's lowest trough, 2.5th pct of patients": 81.7,
+    "patient's highest trough, 97.5th pct of patients": 123.1
+   },
+   "A_home_CV20_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.0,
+     96.1,
+     97.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     84.5,
+     110.1
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     84.6,
+     109.9
+    ],
+    "% of days trough <90% of ref": 13.32,
+    "% of days trough <80% of ref": 0.42,
+    "% of days peak outside 80-125% of ref": 0.39,
+    "patient's lowest trough over 90 days, median % of ref": 81.5,
+    "patient's lowest trough, 2.5th pct of patients": 74.9,
+    "patient's highest trough, 97.5th pct of patients": 122.7
+   },
+   "B_pooled_CV20_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.0,
+     93.0,
+     100.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     80.1,
+     115.4
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     80.2,
+     115.3
+    ],
+    "% of days trough <90% of ref": 22.29,
+    "% of days trough <80% of ref": 2.45,
+    "% of days peak outside 80-125% of ref": 2.55,
+    "patient's lowest trough over 90 days, median % of ref": 77.4,
+    "patient's lowest trough, 2.5th pct of patients": 68.9,
+    "patient's highest trough, 97.5th pct of patients": 130.3
+   },
+   "C_largestfirst_CV20_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     96.9,
+     96.1,
+     97.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     85.2,
+     108.6
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     85.4,
+     108.4
+    ],
+    "% of days trough <90% of ref": 14.48,
+    "% of days trough <80% of ref": 0.06,
+    "% of days peak outside 80-125% of ref": 0.05,
+    "patient's lowest trough over 90 days, median % of ref": 83.3,
+    "patient's lowest trough, 2.5th pct of patients": 79.2,
+    "patient's highest trough, 97.5th pct of patients": 119.6
+   },
+   "A_home_CV20_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     93.2,
+     94.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     81.9,
+     106.7
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     82.0,
+     106.5
+    ],
+    "% of days trough <90% of ref": 25.55,
+    "% of days trough <80% of ref": 1.21,
+    "% of days peak outside 80-125% of ref": 1.14,
+    "patient's lowest trough over 90 days, median % of ref": 79.0,
+    "patient's lowest trough, 2.5th pct of patients": 72.6,
+    "patient's highest trough, 97.5th pct of patients": 118.7
+   },
+   "B_pooled_CV20_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     90.3,
+     97.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     77.6,
+     111.9
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     77.7,
+     111.7
+    ],
+    "% of days trough <90% of ref": 32.99,
+    "% of days trough <80% of ref": 4.9,
+    "% of days peak outside 80-125% of ref": 4.84,
+    "patient's lowest trough over 90 days, median % of ref": 75.0,
+    "patient's lowest trough, 2.5th pct of patients": 66.9,
+    "patient's highest trough, 97.5th pct of patients": 125.9
+   },
+   "C_largestfirst_CV20_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     93.9,
+     93.1,
+     94.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     82.6,
+     105.2
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     82.8,
+     105.1
+    ],
+    "% of days trough <90% of ref": 23.83,
+    "% of days trough <80% of ref": 0.47,
+    "% of days peak outside 80-125% of ref": 0.39,
+    "patient's lowest trough over 90 days, median % of ref": 80.7,
+    "patient's lowest trough, 2.5th pct of patients": 76.9,
+    "patient's highest trough, 97.5th pct of patients": 115.5
+   },
+   "A_home_CV20_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     89.2,
+     90.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     78.3,
+     102.2
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     78.5,
+     102.0
+    ],
+    "% of days trough <90% of ref": 50.6,
+    "% of days trough <80% of ref": 4.54,
+    "% of days peak outside 80-125% of ref": 4.36,
+    "patient's lowest trough over 90 days, median % of ref": 75.6,
+    "patient's lowest trough, 2.5th pct of patients": 69.8,
+    "patient's highest trough, 97.5th pct of patients": 113.8
+   },
+   "B_pooled_CV20_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     86.3,
+     93.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     74.3,
+     107.0
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     74.4,
+     106.9
+    ],
+    "% of days trough <90% of ref": 51.11,
+    "% of days trough <80% of ref": 11.33,
+    "% of days peak outside 80-125% of ref": 11.19,
+    "patient's lowest trough over 90 days, median % of ref": 71.9,
+    "patient's lowest trough, 2.5th pct of patients": 64.1,
+    "patient's highest trough, 97.5th pct of patients": 120.6
+   },
+   "C_largestfirst_CV20_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     89.9,
+     89.2,
+     90.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     79.1,
+     100.8
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     79.3,
+     100.6
+    ],
+    "% of days trough <90% of ref": 47.45,
+    "% of days trough <80% of ref": 4.08,
+    "% of days peak outside 80-125% of ref": 3.74,
+    "patient's lowest trough over 90 days, median % of ref": 77.3,
+    "patient's lowest trough, 2.5th pct of patients": 73.6,
+    "patient's highest trough, 97.5th pct of patients": 110.6
+   },
+   "A_home_CV30_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     99.0,
+     101.0
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     81.0,
+     120.2
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     81.2,
+     119.9
+    ],
+    "% of days trough <90% of ref": 14.9,
+    "% of days trough <80% of ref": 1.95,
+    "% of days peak outside 80-125% of ref": 2.71,
+    "patient's lowest trough over 90 days, median % of ref": 76.7,
+    "patient's lowest trough, 2.5th pct of patients": 67.7,
+    "patient's highest trough, 97.5th pct of patients": 140.1
+   },
+   "B_pooled_CV30_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     94.0,
+     106.0
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     74.5,
+     128.8
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     74.6,
+     128.6
+    ],
+    "% of days trough <90% of ref": 24.39,
+    "% of days trough <80% of ref": 6.89,
+    "% of days peak outside 80-125% of ref": 10.97,
+    "patient's lowest trough over 90 days, median % of ref": 70.7,
+    "patient's lowest trough, 2.5th pct of patients": 59.6,
+    "patient's highest trough, 97.5th pct of patients": 152.8
+   },
+   "C_largestfirst_CV30_loss0": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     99.9,
+     99.0,
+     100.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     82.5,
+     117.8
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     82.8,
+     117.5
+    ],
+    "% of days trough <90% of ref": 16.34,
+    "% of days trough <80% of ref": 0.87,
+    "% of days peak outside 80-125% of ref": 1.07,
+    "patient's lowest trough over 90 days, median % of ref": 79.8,
+    "patient's lowest trough, 2.5th pct of patients": 74.3,
+    "patient's highest trough, 97.5th pct of patients": 135.3
+   },
+   "A_home_CV30_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.0,
+     96.1,
+     97.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     78.6,
+     116.6
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     78.8,
+     116.3
+    ],
+    "% of days trough <90% of ref": 22.65,
+    "% of days trough <80% of ref": 3.48,
+    "% of days peak outside 80-125% of ref": 3.68,
+    "patient's lowest trough over 90 days, median % of ref": 74.5,
+    "patient's lowest trough, 2.5th pct of patients": 65.4,
+    "patient's highest trough, 97.5th pct of patients": 135.6
+   },
+   "B_pooled_CV30_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     97.1,
+     91.0,
+     102.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     72.1,
+     125.1
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     72.3,
+     125.0
+    ],
+    "% of days trough <90% of ref": 31.31,
+    "% of days trough <80% of ref": 9.92,
+    "% of days peak outside 80-125% of ref": 12.25,
+    "patient's lowest trough over 90 days, median % of ref": 68.4,
+    "patient's lowest trough, 2.5th pct of patients": 57.5,
+    "patient's highest trough, 97.5th pct of patients": 147.9
+   },
+   "C_largestfirst_CV30_loss3": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     96.9,
+     96.0,
+     97.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     79.9,
+     114.2
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     80.3,
+     114.0
+    ],
+    "% of days trough <90% of ref": 22.07,
+    "% of days trough <80% of ref": 2.55,
+    "% of days peak outside 80-125% of ref": 2.35,
+    "patient's lowest trough over 90 days, median % of ref": 77.4,
+    "patient's lowest trough, 2.5th pct of patients": 72.4,
+    "patient's highest trough, 97.5th pct of patients": 131.1
+   },
+   "A_home_CV30_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     94.0,
+     93.1,
+     94.9
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     76.2,
+     113.0
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     76.4,
+     112.7
+    ],
+    "% of days trough <90% of ref": 33.29,
+    "% of days trough <80% of ref": 6.15,
+    "% of days peak outside 80-125% of ref": 6.05,
+    "patient's lowest trough over 90 days, median % of ref": 72.2,
+    "patient's lowest trough, 2.5th pct of patients": 63.5,
+    "patient's highest trough, 97.5th pct of patients": 131.3
+   },
+   "B_pooled_CV30_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     93.9,
+     88.3,
+     99.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     69.9,
+     121.0
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     70.1,
+     120.9
+    ],
+    "% of days trough <90% of ref": 39.77,
+    "% of days trough <80% of ref": 14.22,
+    "% of days peak outside 80-125% of ref": 15.31,
+    "patient's lowest trough over 90 days, median % of ref": 66.4,
+    "patient's lowest trough, 2.5th pct of patients": 55.7,
+    "patient's highest trough, 97.5th pct of patients": 143.6
+   },
+   "C_largestfirst_CV30_loss6": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     93.9,
+     93.1,
+     94.7
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     77.5,
+     110.6
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     77.9,
+     110.4
+    ],
+    "% of days trough <90% of ref": 28.93,
+    "% of days trough <80% of ref": 6.01,
+    "% of days peak outside 80-125% of ref": 5.56,
+    "patient's lowest trough over 90 days, median % of ref": 75.0,
+    "patient's lowest trough, 2.5th pct of patients": 69.9,
+    "patient's highest trough, 97.5th pct of patients": 127.0
+   },
+   "A_home_CV30_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     89.1,
+     90.8
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     72.9,
+     108.2
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     73.2,
+     108.0
+    ],
+    "% of days trough <90% of ref": 50.91,
+    "% of days trough <80% of ref": 12.35,
+    "% of days peak outside 80-125% of ref": 12.02,
+    "patient's lowest trough over 90 days, median % of ref": 69.1,
+    "patient's lowest trough, 2.5th pct of patients": 60.9,
+    "patient's highest trough, 97.5th pct of patients": 125.9
+   },
+   "B_pooled_CV30_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     90.0,
+     84.7,
+     95.6
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     67.0,
+     115.9
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     67.2,
+     115.8
+    ],
+    "% of days trough <90% of ref": 51.49,
+    "% of days trough <80% of ref": 21.76,
+    "% of days peak outside 80-125% of ref": 22.05,
+    "patient's lowest trough over 90 days, median % of ref": 63.7,
+    "patient's lowest trough, 2.5th pct of patients": 53.3,
+    "patient's highest trough, 97.5th pct of patients": 137.1
+   },
+   "C_largestfirst_CV30_loss10": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     89.9,
+     89.1,
+     90.6
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     74.2,
+     105.9
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     74.6,
+     105.7
+    ],
+    "% of days trough <90% of ref": 47.8,
+    "% of days trough <80% of ref": 13.77,
+    "% of days peak outside 80-125% of ref": 13.37,
+    "patient's lowest trough over 90 days, median % of ref": 71.9,
+    "patient's lowest trough, 2.5th pct of patients": 67.0,
+    "patient's highest trough, 97.5th pct of patients": 121.2
+   },
+   "BENCH_missed_1_per_28": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     95.7,
+     95.4,
+     96.3
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     64.7,
+     100.0
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     67.7,
+     100.0
+    ],
+    "% of days trough <90% of ref": 12.76,
+    "% of days trough <80% of ref": 8.49,
+    "% of days peak outside 80-125% of ref": 8.49,
+    "patient's lowest trough over 90 days, median % of ref": 64.5,
+    "patient's lowest trough, 2.5th pct of patients": 55.1,
+    "patient's highest trough, 97.5th pct of patients": 100.0
+   },
+   "BENCH_25mg_alt_day": {
+    "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     100.0,
+     100.0,
+     100.0
+    ],
+    "daily trough % of ref, 2.5-97.5 pct of all days": [
+     78.6,
+     121.4
+    ],
+    "daily peak % of ref, 2.5-97.5 pct of all days": [
+     82.2,
+     120.7
+    ],
+    "% of days trough <90% of ref": 49.44,
+    "% of days trough <80% of ref": 49.44,
+    "% of days peak outside 80-125% of ref": 0.0,
+    "patient's lowest trough over 90 days, median % of ref": 78.6,
+    "patient's lowest trough, 2.5th pct of patients": 78.6,
+    "patient's highest trough, 97.5th pct of patients": 121.4
+   }
+  }
+ }
+}
