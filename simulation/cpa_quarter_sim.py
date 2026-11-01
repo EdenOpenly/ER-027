@@ -171,10 +171,24 @@ def even(N):
 
 
 def missed_one_per_28(N, rng):
+    """One missed dose per 28 days, at a uniform rate throughout.
+
+    v1.1: the last block (days 112-119) is only 8 days long. v1.0 gave it a missed
+    dose in every patient, which raised the rate in the analysed window above one
+    per 28 days. It now gets one with probability 8/28. The partial-block draw uses
+    its own generator, so the main RNG stream, and every other output, is unchanged.
+    """
     d = even(N)
+    rng_partial = np.random.default_rng(2026110128)
+    rows_all = np.arange(N)
     for start in range(0, NDAYS, 28):
-        days = rng.integers(start, min(start + 28, NDAYS), N)
-        d[np.arange(N), days] = 0.0
+        end = min(start + 28, NDAYS)
+        days = rng.integers(start, end, N)
+        rows = rows_all
+        if end - start < 28:
+            keep = rng_partial.random(N) < (end - start) / 28
+            rows, days = rows[keep], days[keep]
+        d[rows, days] = 0.0
     return d
 
 

@@ -1033,9 +1033,9 @@
    },
    "BENCH_missed_1_per_28": {
     "Cavg % of ref, median [2.5-97.5 pct of patients]": [
-     95.7,
-     95.5,
-     96.4
+     96.7,
+     95.6,
+     97.3
     ],
     "daily trough % of ref, 2.5-97.5 pct of all days": [
      63.9,
@@ -1045,11 +1045,11 @@
      34.8,
      100.0
     ],
-    "% of days trough <90% of ref": 12.67,
-    "% of days trough <80% of ref": 8.47,
-    "% of days peak outside 80-125% of ref": 4.28,
-    "patient's lowest trough over 90 days, median % of ref": 63.8,
-    "patient's lowest trough, 2.5th pct of patients": 54.5,
+    "% of days trough <90% of ref": 10.8,
+    "% of days trough <80% of ref": 7.15,
+    "% of days peak outside 80-125% of ref": 3.57,
+    "patient's lowest trough over 90 days, median % of ref": 63.9,
+    "patient's lowest trough, 2.5th pct of patients": 57.8,
     "patient's highest trough, 97.5th pct of patients": 100.0
    },
    "BENCH_25mg_alt_day": {
@@ -2096,9 +2096,9 @@
    },
    "BENCH_missed_1_per_28": {
     "Cavg % of ref, median [2.5-97.5 pct of patients]": [
+     96.7,
      95.6,
-     95.5,
-     96.5
+     97.5
     ],
     "daily trough % of ref, 2.5-97.5 pct of all days": [
      56.5,
@@ -2108,11 +2108,11 @@
      28.3,
      100.0
     ],
-    "% of days trough <90% of ref": 12.49,
-    "% of days trough <80% of ref": 8.43,
-    "% of days peak outside 80-125% of ref": 4.26,
-    "patient's lowest trough over 90 days, median % of ref": 56.4,
-    "patient's lowest trough, 2.5th pct of patients": 48.5,
+    "% of days trough <90% of ref": 10.72,
+    "% of days trough <80% of ref": 7.15,
+    "% of days peak outside 80-125% of ref": 3.57,
+    "patient's lowest trough over 90 days, median % of ref": 56.5,
+    "patient's lowest trough, 2.5th pct of patients": 51.9,
     "patient's highest trough, 97.5th pct of patients": 100.0
    },
    "BENCH_25mg_alt_day": {
@@ -3159,9 +3159,9 @@
    },
    "BENCH_missed_1_per_28": {
     "Cavg % of ref, median [2.5-97.5 pct of patients]": [
-     95.7,
-     95.4,
-     96.4
+     96.7,
+     95.6,
+     97.2
     ],
     "daily trough % of ref, 2.5-97.5 pct of all days": [
      67.8,
@@ -3171,11 +3171,11 @@
      38.7,
      100.0
     ],
-    "% of days trough <90% of ref": 16.45,
-    "% of days trough <80% of ref": 8.47,
-    "% of days peak outside 80-125% of ref": 4.27,
-    "patient's lowest trough over 90 days, median % of ref": 67.6,
-    "patient's lowest trough, 2.5th pct of patients": 57.8,
+    "% of days trough <90% of ref": 14.3,
+    "% of days trough <80% of ref": 7.18,
+    "% of days peak outside 80-125% of ref": 3.58,
+    "patient's lowest trough over 90 days, median % of ref": 67.7,
+    "patient's lowest trough, 2.5th pct of patients": 60.9,
     "patient's highest trough, 97.5th pct of patients": 100.0
    },
    "BENCH_25mg_alt_day": {
@@ -4222,9 +4222,9 @@
    },
    "BENCH_missed_1_per_28": {
     "Cavg % of ref, median [2.5-97.5 pct of patients]": [
-     95.8,
-     95.4,
-     96.4
+     96.6,
+     95.6,
+     97.1
     ],
     "daily trough % of ref, 2.5-97.5 pct of all days": [
      73.7,
@@ -4234,10 +4234,10 @@
      45.5,
      100.0
     ],
-    "% of days trough <90% of ref": 16.5,
-    "% of days trough <80% of ref": 4.68,
-    "% of days peak outside 80-125% of ref": 4.27,
-    "patient's lowest trough over 90 days, median % of ref": 73.2,
+    "% of days trough <90% of ref": 14.32,
+    "% of days trough <80% of ref": 3.84,
+    "% of days peak outside 80-125% of ref": 3.58,
+    "patient's lowest trough over 90 days, median % of ref": 73.5,
     "patient's lowest trough, 2.5th pct of patients": 63.3,
     "patient's highest trough, 97.5th pct of patients": 100.0
    },
@@ -5285,9 +5285,9 @@
    },
    "BENCH_missed_1_per_28": {
     "Cavg % of ref, median [2.5-97.5 pct of patients]": [
-     95.7,
-     95.4,
-     96.3
+     96.7,
+     95.6,
+     97.1
     ],
     "daily trough % of ref, 2.5-97.5 pct of all days": [
      64.7,
@@ -5297,10 +5297,10 @@
      67.7,
      100.0
     ],
-    "% of days trough <90% of ref": 12.76,
-    "% of days trough <80% of ref": 8.49,
-    "% of days peak outside 80-125% of ref": 8.49,
-    "patient's lowest trough over 90 days, median % of ref": 64.5,
+    "% of days trough <90% of ref": 10.87,
+    "% of days trough <80% of ref": 7.17,
+    "% of days peak outside 80-125% of ref": 7.17,
+    "patient's lowest trough over 90 days, median % of ref": 64.7,
     "patient's lowest trough, 2.5th pct of patients": 55.1,
     "patient's highest trough, 97.5th pct of patients": 100.0
    },

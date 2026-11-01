@@ -47,7 +47,9 @@ def run(scen,cv,N=2000,miss=False,eod=False):
         elif scen=='miss':
             d=np.ones(days)
             for s in range(0,days,28):
-                d[s+rng.integers(0,min(28,days-s))]=0
+                L=min(28,days-s)
+                if L==28 or rng.random()<L/28:  # partial last block: miss with probability L/28 (v1.1)
+                    d[s+rng.integers(0,L)]=0
         elif scen=='eod':
             d=np.tile([2,0],days//2).astype(float)
         out.append(troughs(d)/even)
