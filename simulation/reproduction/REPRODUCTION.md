@@ -25,7 +25,7 @@ Middle 95% of daily troughs, as % of the even-split level, and % of days below 8
 
 ## 3b. Calibration sensitivity and a label correction (v1.2) — 1 November 2026 (UTC)
 
-An external reviewer found that `fit_biexp()` takes the peak time from a fixed grid with `argmax`, so the optimiser gets no gradient from that residual. `calibration_sensitivity.py` refits with a continuous peak time from 400 random starts, profiles the fit over fixed distribution half-lives, and reruns the key scenarios (N = 3,000) for every calibration fitting at least as well as the main one. The reviewer's independent fit (squared-residual sum about 0.000335, against 0.00163–0.00169 for the published fit) is reproduced: 0.00034, with absorption and distribution rates converging. Results across calibrations with distribution half-life 1.55–4 h:
+An external reviewer found that `fit_biexp()` takes the peak time from a fixed grid with `argmax`, so the optimiser gets no gradient from that residual. `calibration_sensitivity.py` refits with a continuous peak time from 400 random starts, profiles the fit over fixed distribution half-lives, and reruns the key scenarios (N = 3,000) for selected profile calibrations with a squared-residual sum up to 25% above the main one's (an exploratory rule; the 4 h profile is about 21% worse, the others better). The reviewer's independent fit (squared-residual sum about 0.000335, against 0.00163–0.00169 for the published fit) is reproduced: 0.00034, with absorption and distribution rates converging. Results across the selected calibrations, distribution half-life 1.55–4 h:
 
 | Scenario | Range across calibrations |
 |---|---|

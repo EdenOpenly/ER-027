@@ -7,7 +7,7 @@ Code and data for **ER-027**, an Eden Openly Evidence Review on cyproterone acet
 `simulation/` holds a pharmacokinetic simulation used in ER-027's practice section (§12). Korea sells only a 50 mg cyproterone acetate tablet, so a 12.5 mg daily dose means taking a quarter of a tablet. The simulation asks how much uneven quartering, and tablet lost as powder when splitting, changes the drug concentrations that reach plasma.
 
 - `cpa_quarter_sim.py` — the simulation (version 1.2). It writes `results.json`.
-- `calibration_sensitivity.py` — refits the model with a continuous peak time, profiles the fit, and reruns the key scenarios across every calibration that fits the source summary statistics as well as the main one. It writes `calibration_sensitivity.json`.
+- `calibration_sensitivity.py` — refits the model with a continuous peak time, profiles the fit, and reruns the key scenarios across selected profile calibrations (an exploratory analysis, not an exhaustive one). It writes `calibration_sensitivity.json`.
 - `plot_fig.py` — draws the figure from the model and `results.json`.
 - `results.json` — the full published outputs.
 - `ER-027-appendix-quartering-simulation-fig1.png` — the published figure.
@@ -31,7 +31,7 @@ The random seed is fixed, so with the pinned package versions `results.json` is 
 
 ## What the simulation is, and is not
 
-It is a model, not a measurement: an illustrative model calibrated to the published group summary statistics of one single-dose bioavailability study of Androcur 50 mg in 18 healthy men. Those four statistics do not uniquely fix the concentration–time curve or its absorption and distribution parameters, so predictions are conditional on the calibration chosen; `calibration_sensitivity.py` shows how much they move across the calibrations that fit equally well. It assumes linear kinetics at 12.5 mg and does not model testosterone. The splitting inputs (quarter-to-quarter variation, mass loss) are borrowed from studies of other drugs' tablets. No study has yet measured them for Androcur. ER-027 reports the simulation as context for its §12 and gives it no certainty grade.
+It is a model, not a measurement: an illustrative model calibrated to the published group summary statistics of one single-dose bioavailability study of Androcur 50 mg in 18 healthy men. Those four statistics do not uniquely fix the concentration–time curve or its absorption and distribution parameters, so predictions are conditional on the calibration chosen; `calibration_sensitivity.py` shows how much they move across a selection of calibrations that fit about as well. It assumes linear kinetics at 12.5 mg and does not model testosterone. The splitting inputs (quarter-to-quarter variation, mass loss) are borrowed from studies of other drugs' tablets. No study has yet measured them for Androcur. ER-027 reports the simulation as context for its §12 and gives it no certainty grade.
 
 ## Licence
 

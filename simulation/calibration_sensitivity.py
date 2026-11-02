@@ -9,8 +9,11 @@ distribution parameters are not securely identified. Four group summary statisti
 This script:
   1. computes tmax continuously (root of dC/dt) and refits from 400 random starts;
   2. profiles the fit over fixed distribution half-lives (1-12 h), refitting the rest;
-  3. reruns the key scenarios for every calibration whose squared-residual sum is no
-     worse than the published fit's, and for the published fit itself.
+  3. reruns the key scenarios for the published fit and for each profile calibration
+     whose squared-residual sum is no more than 25% above the published fit's.
+     This is an exploratory sensitivity analysis over selected profiles. It does not
+     exhaust the parameter combinations that fit the four statistics, and the 25%
+     cut-off is a working rule, not a confidence region.
 
 Output: calibration_sensitivity.json. Run time a few minutes; N = 3,000 per scenario.
 """
