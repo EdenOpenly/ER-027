@@ -23,6 +23,19 @@ Middle 95% of daily troughs, as % of the even-split level, and % of days below 8
 | 25 mg every other day | 78–122%; 49.4% | 78–122%; 49.4% |
 | Terminal-phase accumulation factor, 1/(1 − e^(−24β)) | 2.83 | 2.83 |
 
+## 3b. Calibration sensitivity and a label correction (v1.2) — 1 November 2026 (UTC)
+
+An external reviewer found that `fit_biexp()` takes the peak time from a fixed grid with `argmax`, so the optimiser gets no gradient from that residual. `calibration_sensitivity.py` refits with a continuous peak time from 400 random starts, profiles the fit over fixed distribution half-lives, and reruns the key scenarios (N = 3,000) for every calibration fitting at least as well as the main one. The reviewer's independent fit (squared-residual sum about 0.000335, against 0.00163–0.00169 for the published fit) is reproduced: 0.00034, with absorption and distribution rates converging. Results across calibrations with distribution half-life 1.55–4 h:
+
+| Scenario | Range across calibrations |
+|---|---|
+| Home splitting, CV 15%: daily trough, middle 95% | 90.1–110.3% to 89.5–111.0% |
+| Pooled, CV 30%: days with trough <80% | 6.85–7.51% |
+| One missed per 28 days: daily trough, middle 95% | 61.7–100% to 64.6–100% |
+| Home splitting, CV 15%: daily peak, middle 95% | 81.6–120.3% to 82.5–119.4% |
+
+The main model is unchanged. The `results.json` key "lowest trough over 90 days" is renamed "over days 32–120 (89 troughs)", which is what it measures; every value is identical to v1.1.
+
 ## 3a. Note on the accumulation factor — 1 November 2026 (UTC)
 
 The 2.83 in section 2 is the accumulation factor of the terminal exponential alone. An external reviewer pointed out that it is not the accumulation of the whole fitted curve. Summing the fitted single-dose curve at 24-hour intervals gives: steady-state peak 199.7 against single-dose peak 133.6 ng/mL (1.49-fold); 24-hour exposure 1.94-fold; trough 2.77-fold. The agreement of 2.83 with the label's "about 3" is a plausibility check on the terminal phase, not a validation of the model. No output changes.
@@ -38,6 +51,6 @@ In v1.1, both scripts give the short last block a missed dose with probability 8
 | Daily trough, middle 95% of days | 64–100% | 64–100% | 64–100% |
 | Days with trough <90% | 12.7% | 10.8% | — |
 | Days with trough <80% | 8.5% | 7.2% | 7.1% |
-| Lowest trough over 90 days, median | 64% | 64% | — |
+| Lowest trough over days 32–120 (89 troughs), median | 64% | 64% | — |
 
 Both reproductions were carried out with AI assistance (Claude, Anthropic). They have not yet been repeated by a human.

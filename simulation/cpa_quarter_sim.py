@@ -132,7 +132,7 @@ def summarise(m):
         "% of days trough <90% of ref": round(100 * float((tr < 0.9).mean()), 2),
         "% of days trough <80% of ref": round(100 * float((tr < 0.8).mean()), 2),
         "% of days peak outside 80-125% of ref": round(100 * float(((pk < 0.8) | (pk > 1.25)).mean()), 2),
-        "patient's lowest trough over 90 days, median % of ref": round(100 * q(worst_tr, 50), 1),
+        "patient's lowest trough over days 32-120 (89 troughs), median % of ref": round(100 * q(worst_tr, 50), 1),
         "patient's lowest trough, 2.5th pct of patients": round(100 * q(worst_tr, 2.5), 1),
         "patient's highest trough, 97.5th pct of patients": round(100 * q(best_tr, 97.5), 1),
     }

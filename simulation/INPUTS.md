@@ -14,6 +14,8 @@ Fitted to the Androcur 50 mg arm of a comparative bioavailability study (18 heal
 
 Fitted parameters: A 252.47, α 0.23667 h⁻¹, B 37.392, β 0.01814 h⁻¹ (fixed), kₐ 0.77359 h⁻¹. That is an absorption half-life of 0.90 h and a distribution-phase half-life of 2.9 h, with the distribution phase carrying 34% of disposition AUC.
 
+**Calibration, not recovery (v1.2 note).** `fit_biexp()` reads the peak time off a fixed grid with `argmax`, so that residual gives the optimiser no gradient, and the four group summary statistics do not identify four parameters in any case. Refitted with a continuous peak time (`calibration_sensitivity.py`), the best free fit drives the absorption and distribution rates together (both half-lives about 1.55 h) and fits the four statistics more closely (squared-residual sum 0.00034 against 0.00169). Fixing the distribution half-life anywhere from about 1.5 to 4 h fits as well as the main calibration. Across those calibrations, the main trough results move by about one percentage point (home splitting, CV 15%: 89.5–111.0% at the widest; pooled, CV 30%: 6.9–7.5% of days below 80%). The main model keeps the v1.0 calibration, which lies inside that family; its absorption and distribution half-lives are calibration values, not measured ones. The share of exposure in the fast phase depends on convention: 34% counting the disposition terms' gross areas, 27% net of the absorption term.
+
 ### Cross-checks against product labels
 
 - **Androcur 50 SmPC, Netherlands** (CBG h06540, version 08-2022): terminal half-life 43.9 ± 12.8 h.
