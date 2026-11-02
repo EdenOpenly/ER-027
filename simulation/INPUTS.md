@@ -22,7 +22,7 @@ Fitted parameters: A 252.47, α 0.23667 h⁻¹, B 37.392, β 0.01814 h⁻¹ (fix
   - two- to two-and-a-half-fold accumulation with daily dosing.
 - **Androcur 50/100 mg package insert, South Africa** (Bayer, SAHPRA-approved, 2009): accumulation "about 3".
 
-The model's accumulation factor is 2.83. Its 38.21 h terminal half-life is the shortest of these sources, so it shows the most day-to-day variation. The sensitivity runs use 30, 44 and 56 h.
+The model's terminal-phase accumulation factor, 1/(1 − e^(−24β)), is 2.83, consistent with the labels' figures, which are also based on the terminal half-life. That is a plausibility check on the terminal phase, not a validation of the whole curve: summed over daily doses, the fitted model's steady-state peak is 1.49 times the single-dose peak, 24-hour exposure is 1.94 times the first day's, and the trough rises 2.77-fold. Its 38.21 h terminal half-life is the shortest of these sources, so it shows the most day-to-day variation. The sensitivity runs use 30, 44 and 56 h.
 
 ## Splitting inputs
 

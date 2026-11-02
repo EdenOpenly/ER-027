@@ -21,7 +21,11 @@ Middle 95% of daily troughs, as % of the even-split level, and % of days below 8
 | Pharmacy pooled, CV 30% | 74–129%; 7.1% | 74–129%; 7.0% |
 | One dose missed per 28 days | 64–100%; 8.5% | 64–100%; 8.5% |
 | 25 mg every other day | 78–122%; 49.4% | 78–122%; 49.4% |
-| Accumulation factor | 2.83 | 2.83 |
+| Terminal-phase accumulation factor, 1/(1 − e^(−24β)) | 2.83 | 2.83 |
+
+## 3a. Note on the accumulation factor — 1 November 2026 (UTC)
+
+The 2.83 in section 2 is the accumulation factor of the terminal exponential alone. An external reviewer pointed out that it is not the accumulation of the whole fitted curve. Summing the fitted single-dose curve at 24-hour intervals gives: steady-state peak 199.7 against single-dose peak 133.6 ng/mL (1.49-fold); 24-hour exposure 1.94-fold; trough 2.77-fold. The agreement of 2.83 with the label's "about 3" is a plausibility check on the terminal phase, not a validation of the model. No output changes.
 
 ## 3. Correction to the missed-dose benchmark (v1.1) — 1 November 2026 (UTC)
 
