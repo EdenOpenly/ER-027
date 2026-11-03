@@ -38,7 +38,10 @@ a2.text(158, -0.9, "Between-person exposure range\n(95%, AUC CV 24%)", ha="right
 for i, (lab, r, c) in enumerate(rows):
     lo, hi = r[key]; y = len(rows) - 1 - i
     a2.plot([lo, hi], [y, y], color=c, lw=3, solid_capstyle="round")
-    a2.text(hi + 2, y, f"{lo:.0f}–{hi:.0f}%", va="center", color=INK, fontsize=7.5)
+    # Whole per cent, except the home-split CV 15% row at one decimal place,
+    # matching Appendix Q's stated rounding convention (89.9-110.5%).
+    lab_txt = f"{lo:.1f}–{hi:.1f}%" if lab == "Home split, CV 15%" else f"{lo:.0f}–{hi:.0f}%"
+    a2.text(hi + 2, y, lab_txt, va="center", color=INK, fontsize=7.5)
 a2.set_yticks(range(len(rows))); a2.set_yticklabels([r[0] for r in rows[::-1]], fontsize=8)
 a2.axvline(100, color=MUTED, lw=1, ls=(0, (3, 3)))
 a2.set_xlim(50, 175); a2.set_ylim(-1.6, len(rows) - 0.4)

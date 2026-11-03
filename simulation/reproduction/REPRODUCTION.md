@@ -23,6 +23,10 @@ Middle 95% of daily troughs, as % of the even-split level, and % of days below 8
 | 25 mg every other day | 78–122%; 49.4% | 78–122%; 49.4% |
 | Terminal-phase accumulation factor, 1/(1 − e^(−24β)) | 2.83 | 2.83 |
 
+## 3c. Figure label rounding (v1.3) — 3 November 2026 (UTC)
+
+Panel B of the figure labelled the home-split, CV 15% interval "90–110%". `plot_fig.py` formatted every label with `:.0f`, which rounds a half to the nearest even number, so 110.5 printed as 110. ER-027's Appendix Q gives this interval to one decimal place, 89.9–110.5%, because the rounded "90–110%" had been read as "within 10% on 95% of days", which is narrower than the result. `plot_fig.py` now labels that row to one decimal place and every other row to whole per cent, as the appendix does. No other label is affected: no other interval endpoint ends in exactly .5. No model output changes; `results.json` and `calibration_sensitivity.json` are unchanged. Re-drawn figure checked against v1.2: only the pixels of that one label differ.
+
 ## 3b. Calibration sensitivity and a label correction (v1.2) — 1 November 2026 (UTC)
 
 An external reviewer found that `fit_biexp()` takes the peak time from a fixed grid with `argmax`, so the optimiser gets no gradient from that residual. `calibration_sensitivity.py` refits with a continuous peak time from 400 random starts, profiles the fit over fixed distribution half-lives, and reruns the key scenarios (N = 3,000) for selected profile calibrations with a squared-residual sum up to 25% above the main one's (an exploratory rule; the 4 h profile is about 21% worse, the others better). The reviewer's independent fit (squared-residual sum about 0.000335, against 0.00163–0.00169 for the published fit) is reproduced: 0.00034, with absorption and distribution rates converging. Results across the selected calibrations, distribution half-life 1.55–4 h:
